@@ -1,0 +1,1172 @@
+
+@article{simon_functional_1975,
+	title = {The functional equivalence of problem solving skills},
+	volume = {7},
+	url = {https://www.sciencedirect.com/science/article/pii/0010028575900122},
+	number = {2},
+	urldate = {2026-06-25},
+	journal = {Cognitive psychology},
+	author = {Simon, Herbert A.},
+	year = {1975},
+	note = {Publisher: Elsevier},
+	pages = {268--288},
+}
+
+@article{welsh_development_2001,
+	title = {The {Development} and {Preliminary} {Validation} of the {Tower} of {Hanoi}-{Revised}},
+	volume = {8},
+	copyright = {https://journals.sagepub.com/page/policies/text-and-data-mining-license},
+	issn = {1073-1911, 1552-3489},
+	url = {https://journals.sagepub.com/doi/10.1177/107319110100800205},
+	doi = {10.1177/107319110100800205},
+	abstract = {The objective of this study was to redesign the Tower of Hanoi (TOH) in order to increase the reliability and explore the validity of the task. In order to achieve this goal, a two-phase process was undertaken. In Phase 1, the TOH item pool was enlarged from 12 items to 60 items, and the task was administered to a sample of college students (N = 81). The 22 most homogeneous items for the final task were identified based on the item-total correlations. In Phase 2, the rebuilt TOH (TOH-R) was administered to a second sample (N = 50). The internal consistency reliability (Cronbach alpha) was .77 for this new sample. In this phase, the TOH-R was administered concurrently with the Tower of London-Revised (TOL-R), and the convergent validity of the TOH-R against the TOL-R was .53.},
+	language = {en},
+	number = {2},
+	urldate = {2026-06-25},
+	journal = {Assessment},
+	author = {Welsh, Marilyn C. and Huizinga, Mariëtte},
+	month = jun,
+	year = {2001},
+	pages = {167--176},
+}
+
+@misc{zhao_is_2026,
+	title = {Is {Chain}-of-{Thought} {Reasoning} of {LLMs} a {Mirage}? {A} {Data} {Distribution} {Lens}},
+	shorttitle = {Is {Chain}-of-{Thought} {Reasoning} of {LLMs} a {Mirage}?},
+	url = {http://arxiv.org/abs/2508.01191},
+	doi = {10.48550/arXiv.2508.01191},
+	abstract = {Chain-of-Thought (CoT) prompting has been shown to be effective in eliciting structured reasoning (i.e., CoT reasoning) from large language models (LLMs). Regardless of its popularity, recent studies expose its failures in some reasoning tasks, raising fundamental questions about the nature of CoT reasoning. In this work, we propose a data distribution lens to understand when and why CoT reasoning succeeds or fails. We hypothesize that CoT reasoning reflects a structured inductive bias learned from in-distribution data, enabling models to conditionally generate reasoning trajectories that approximate those observed during training. As such, the effectiveness of CoT reasoning is fundamentally governed by the nature and degree of distribution discrepancy between training data and test queries. Guided by this lens, we dissect CoT reasoning via three dimensions: task, length, and format. To test the hypothesis, we introduce DataAlchemy, an abstract and fully controllable environment that trains LLMs from scratch and systematically probes them under various distribution conditions. Through rigorous controlled experiments, we reveal that CoT reasoning is a brittle mirage when it is pushed beyond training distributions, emphasizing the ongoing challenge of achieving genuine and generalizable reasoning.},
+	urldate = {2026-06-25},
+	publisher = {arXiv},
+	author = {Zhao, Chengshuai and Tan, Zhen and Ma, Pingchuan and Li, Dawei and Jiang, Bohan and Wang, Yancheng and Yang, Yingzhen and Liu, Huan},
+	month = may,
+	year = {2026},
+	note = {arXiv:2508.01191 [cs.AI]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning},
+}
+
+@misc{meyerson_solving_2025,
+	title = {Solving a {Million}-{Step} {LLM} {Task} with {Zero} {Errors}},
+	url = {http://arxiv.org/abs/2511.09030},
+	doi = {10.48550/arXiv.2511.09030},
+	abstract = {LLMs have achieved remarkable breakthroughs in reasoning, insights, and tool use, but chaining these abilities into extended processes at the scale of those routinely executed by humans, organizations, and societies has remained out of reach. The models have a persistent error rate that prevents scale-up: for instance, recent experiments in the Towers of Hanoi benchmark domain showed that the process inevitably becomes derailed after at most a few hundred steps. Thus, although LLM research is often still benchmarked on tasks with relatively few dependent logical steps, there is increasing attention on the ability (or inability) of LLMs to perform long range tasks. This paper describes MAKER, the first system that successfully solves a task with over one million LLM steps with zero errors, and, in principle, scales far beyond this level. The approach relies on an extreme decomposition of a task into subtasks, each of which can be tackled by focused microagents. The high level of modularity resulting from the decomposition allows error correction to be applied at each step through an efficient multi-agent voting scheme. This combination of extreme decomposition and error correction makes scaling possible. Thus, the results suggest that instead of relying on continual improvement of current LLMs, massively decomposed agentic processes (MDAPs) may provide a way to efficiently solve problems at the level of organizations and societies.},
+	urldate = {2026-06-25},
+	publisher = {arXiv},
+	author = {Meyerson, Elliot and Paolo, Giuseppe and Dailey, Roberto and Shahrzad, Hormoz and Francon, Olivier and Hayes, Conor F. and Qiu, Xin and Hodjat, Babak and Miikkulainen, Risto},
+	month = nov,
+	year = {2025},
+	note = {arXiv:2511.09030 [cs.AI]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Multiagent Systems},
+}
+
+@misc{kang_what_2024,
+	title = {What {Do} {Learning} {Dynamics} {Reveal} {About} {Generalization} in {LLM} {Reasoning}?},
+	url = {http://arxiv.org/abs/2411.07681},
+	doi = {10.48550/arXiv.2411.07681},
+	abstract = {Despite the remarkable capabilities of modern large language models (LLMs), the mechanisms behind their problem-solving abilities remain elusive. In this work, we aim to better understand how the learning dynamics of LLM finetuning shapes downstream generalization. Our analysis focuses on reasoning tasks, whose problem structure allows us to distinguish between memorization (the exact replication of reasoning steps from the training data) and performance (the correctness of the final solution). We find that a model's generalization behavior can be effectively characterized by a training metric we call pre-memorization train accuracy: the accuracy of model samples on training queries before they begin to copy the exact reasoning steps from the training set. On the dataset level, this metric is able to reliably predict test accuracy, achieving \$R{\textasciicircum}2\$ of around or exceeding 0.9 across various models (Llama3 8, Gemma2 9B), datasets (GSM8k, MATH), and training configurations. On a per-example level, this metric is also indicative of whether individual model predictions are robust to perturbations in the training query. By connecting a model's learning behavior to its generalization, pre-memorization train accuracy can guide targeted improvements to training strategies. We focus on data curation as an example, and show that prioritizing examples with low pre-memorization accuracy leads to 1.5-2x improvements in data efficiency compared to i.i.d. data scaling, and outperforms other standard data curation techniques.},
+	urldate = {2026-06-25},
+	publisher = {arXiv},
+	author = {Kang, Katie and Setlur, Amrith and Ghosh, Dibya and Steinhardt, Jacob and Tomlin, Claire and Levine, Sergey and Kumar, Aviral},
+	month = nov,
+	year = {2024},
+	note = {arXiv:2411.07681 [cs.LG]
+version: 1},
+	keywords = {Computer Science - Machine Learning},
+}
+
+@misc{anthropic_reasoning_nodate,
+	title = {Reasoning models don't always say what they think},
+	url = {https://www.anthropic.com/research/reasoning-models-dont-say-think},
+	abstract = {Research from Anthropic on the faithfulness of AI models' Chain-of-Thought},
+	language = {en},
+	urldate = {2026-06-05},
+	author = {Anthropic},
+}
+
+@misc{team_claude_2026,
+	title = {Claude {Code} {Source} {Code} {Leak}: 8 {Hidden} {Features} {You} {Can} {Use} {Right} {Now}},
+	shorttitle = {Claude {Code} {Source} {Code} {Leak}},
+	url = {https://www.mindstudio.ai/blog/claude-code-source-code-leak-8-hidden-features/},
+	abstract = {Anthropic accidentally leaked Claude Code's source code. Here are 8 practical insights from the leak that will change how you use Claude Code today.},
+	language = {en},
+	urldate = {2026-06-04},
+	journal = {MindStudio},
+	author = {Team, MindStudio},
+	month = apr,
+	year = {2026},
+	note = {Section: Claude},
+}
+
+@article{shojaee_illusion_2026,
+	title = {The illusion of thinking: {Understanding} the strengths and limitations of reasoning models via the lens of problem complexity},
+	volume = {38},
+	shorttitle = {The illusion of thinking},
+	url = {https://proceedings.neurips.cc/paper_files/paper/2025/hash/9b26ad15462c81548c0689188d2e8018-Abstract-Conference.html},
+	urldate = {2026-06-04},
+	journal = {Advances in Neural Information Processing Systems},
+	author = {Shojaee, Parshin and Mirzadeh, Iman and Horton, Maxwell and Bengio, Samy and Farajtabar, Mehrdad},
+	year = {2026},
+	pages = {108018--108059},
+}
+
+@misc{openai_harness_2026,
+	title = {Harness engineering: leveraging {Codex} in an agent-first world},
+	shorttitle = {Harness engineering},
+	url = {https://openai.com/index/harness-engineering/},
+	abstract = {By Ryan Lopopolo, Member of the Technical Staff},
+	language = {en-US},
+	urldate = {2026-06-04},
+	journal = {https://openai.com/index/harness-engineering/},
+	author = {OpenAI},
+	month = may,
+	year = {2026},
+}
+
+@misc{anthropic_how_2025,
+	title = {How we built our multi-agent research system},
+	url = {https://www.anthropic.com/engineering/multi-agent-research-system},
+	abstract = {On the the engineering challenges and lessons learned from building Claude's Research system},
+	language = {en},
+	urldate = {2026-06-04},
+	journal = {https://www.anthropic.com/engineering/multi-agent-research-system},
+	author = {Anthropic},
+	year = {2025},
+}
+
+@misc{marcus_biggest_2026,
+	title = {The {Biggest} {Advance} in {AI} {Since} the {LLM} – {Communications} of the {ACM}},
+	url = {https://cacm.acm.org/blogcacm/the-biggest-advance-in-ai-since-the-llm/},
+	urldate = {2026-05-09},
+	author = {Marcus, Gary},
+	month = apr,
+	year = {2026},
+}
+
+@misc{team_kimi_2026,
+	title = {Kimi {K2}: {Open} {Agentic} {Intelligence}},
+	shorttitle = {Kimi {K2}},
+	url = {http://arxiv.org/abs/2507.20534},
+	doi = {10.48550/arXiv.2507.20534},
+	abstract = {We introduce Kimi K2, a Mixture-of-Experts (MoE) large language model with 32 billion activated parameters and 1 trillion total parameters. We propose the MuonClip optimizer, which improves upon Muon with a novel QK-clip technique to address training instability while enjoying the advanced token efficiency of Muon. Based on MuonClip, K2 was pre-trained on 15.5 trillion tokens with zero loss spike. During post-training, K2 undergoes a multi-stage post-training process, highlighted by a large-scale agentic data synthesis pipeline and a joint reinforcement learning (RL) stage, where the model improves its capabilities through interactions with real and synthetic environments. Kimi K2 achieves state-of-the-art performance among open-source non-thinking models, with strengths in agentic capabilities. Notably, K2 obtains 66.1 on Tau2-Bench, 76.5 on ACEBench (En), 65.8 on SWE-Bench Verified, and 47.3 on SWE-Bench Multilingual -- surpassing most open and closed-sourced baselines in non-thinking settings. It also exhibits strong capabilities in coding, mathematics, and reasoning tasks, with a score of 53.7 on LiveCodeBench v6, 49.5 on AIME 2025, 75.1 on GPQA-Diamond, and 27.1 on OJBench, all without extended thinking. These results position Kimi K2 as one of the most capable open-source large language models to date, particularly in software engineering and agentic tasks. We release our base and post-trained model checkpoints to facilitate future research and applications of agentic intelligence.},
+	urldate = {2026-06-04},
+	publisher = {arXiv},
+	author = {Team, Kimi and Bai, Yifan and Bao, Yiping and Charles, Y. and Chen, Cheng and Chen, Guanduo and Chen, Haiting and Chen, Huarong and Chen, Jiahao and Chen, Ningxin and Chen, Ruijue and Chen, Yanru and Chen, Yuankun and Chen, Yutian and Chen, Zhuofu and Cui, Jialei and Ding, Hao and Dong, Mengnan and Du, Angang and Du, Chenzhuang and Du, Dikang and Du, Yulun and Fan, Yu and Feng, Yichen and Fu, Kelin and Gao, Bofei and Gao, Chenxiao and Gao, Hongcheng and Gao, Peizhong and Gao, Tong and Ge, Yuyao and Geng, Shangyi and Gu, Qizheng and Gu, Xinran and Guan, Longyu and Guo, Haiqing and Guo, Jianhang and Hao, Xiaoru and He, Tianhong and He, Weiran and He, Wenyang and He, Yunjia and Hong, Chao and Hu, Hao and Hu, Yangyang and Hu, Zhenxing and Huang, Weixiao and Huang, Zhiqi and Huang, Zihao and Jiang, Tao and Jiang, Zhejun and Jin, Xinyi and Kang, Yongsheng and Lai, Guokun and Li, Cheng and Li, Fang and Li, Haoyang and Li, Ming and Li, Wentao and Li, Yang and Li, Yanhao and Li, Yiwei and Li, Zhaowei and Li, Zheming and Lin, Hongzhan and Lin, Xiaohan and Lin, Zongyu and Liu, Chengyin and Liu, Chenyu and Liu, Hongzhang and Liu, Jingyuan and Liu, Junqi and Liu, Liang and Liu, Shaowei and Liu, T. Y. and Liu, Tianwei and Liu, Weizhou and Liu, Yangyang and Liu, Yibo and Liu, Yiping and Liu, Yue and Liu, Zhengying and Lu, Enzhe and Lu, Haoyu and Lu, Lijun and Luo, Yashuo and Ma, Shengling and Ma, Xinyu and Ma, Yingwei and Mao, Shaoguang and Mei, Jie and Men, Xin and Miao, Yibo and Pan, Siyuan and Peng, Yebo and Qin, Ruoyu and Qin, Zeyu and Qu, Bowen and Shang, Zeyu and Shi, Lidong and Shi, Shengyuan and Song, Feifan and Su, Jianlin and Su, Zhengyuan and Sui, Lin and Sun, Xinjie and Sung, Flood and Tai, Yunpeng and Tang, Heyi and Tao, Jiawen and Teng, Qifeng and Tian, Chaoran and Wang, Chensi and Wang, Dinglu and Wang, Feng and Wang, Hailong and Wang, Haiming and Wang, Jianzhou and Wang, Jiaxing and Wang, Jinhong and Wang, Shengjie and Wang, Shuyi and Wang, Si and Wang, Xinyuan and Wang, Yao and Wang, Yejie and Wang, Yiqin and Wang, Yuxin and Wang, Yuzhi and Wang, Zhaoji and Wang, Zhengtao and Wang, Zhengtao and Wang, Zhexu and Wei, Chu and Wei, Qianqian and Wu, Haoning and Wu, Wenhao and Wu, Xingzhe and Wu, Yuxin and Xiao, Chenjun and Xie, Jin and Xie, Xiaotong and Xiong, Weimin and Xu, Boyu and Xu, Jinjing and Xu, L. H. and Xu, Lin and Xu, Suting and Xu, Weixin and Xu, Xinran and Xu, Yangchuan and Xu, Ziyao and Xu, Jing and Xu, Jing and Yan, Junjie and Yan, Yuzi and Yang, Hao and Yang, Xiaofei and Yang, Yi and Yang, Ying and Yang, Zhen and Yang, Zhilin and Yang, Zonghan and Yao, Haotian and Yao, Xingcheng and Ye, Wenjie and Ye, Zhuorui and Yin, Bohong and Yu, Longhui and Yuan, Enming and Yuan, Hongbang and Yuan, Mengjie and Yuan, Siyu and Zhan, Haobing and Zhang, Dehao and Zhang, Hao and Zhang, Wanlu and Zhang, Xiaobin and Zhang, Yadong and Zhang, Yangkun and Zhang, Yichi and Zhang, Yizhi and Zhang, Yongting and Zhang, Yu and Zhang, Yutao and Zhang, Yutong and Zhang, Zheng and Zhao, Haotian and Zhao, Yikai and Zhao, Zijia and Zheng, Huabin and Zheng, Shaojie and Zhong, Longguang and Zhou, Jianren and Zhou, Xinyu and Zhou, Zaida and Zhu, Jinguo and Zhu, Zhen and Zhuang, Weiyu and Zu, Xinxing},
+	month = feb,
+	year = {2026},
+	note = {arXiv:2507.20534 [cs.LG]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning},
+}
+
+@article{belle_future_2026,
+	title = {The {Future} {Is} {Neuro}-{Symbolic}: {Where} {Has} {It} {Been}, and {Where} {Is} {It} {Going}?},
+	volume = {40},
+	copyright = {Copyright (c) 2026 Association for the Advancement of Artificial Intelligence},
+	issn = {2374-3468},
+	shorttitle = {The {Future} {Is} {Neuro}-{Symbolic}},
+	url = {https://ojs.aaai.org/index.php/AAAI/article/view/42130},
+	doi = {10.1609/aaai.v40i48.42130},
+	abstract = {This report explores the evolution and current state of
+neuro-
+symbolic artificial intelligence, an approach that
+integrates
+neural network capabilities with symbolic reasoning. We
+trace the historical context from early AI aspirations to
+modern implementations and successes, highlighting key
+paradigms, and other logical and semantical considerations.
+We argue against the “scaling is all you need” hypothesis,
+and point to persistent challenges in reliable symbolic
+reasoning with deep and large models. We conclude by
+suggesting
+that despite numerous implementation choices and the ”broad
+church” nature of neuro-symbolic AI, these approaches offer
+the most promising path towards AI systems that combine
+pattern recognition with robust reasoning, particularly for
+applications requiring structured knowledge,
+explainability, and
+trustworthiness.},
+	language = {en},
+	number = {48},
+	urldate = {2026-06-04},
+	journal = {Proceedings of the AAAI Conference on Artificial Intelligence},
+	author = {Belle, Vaishak and Marcus, Gary},
+	month = mar,
+	year = {2026},
+	pages = {40954--40961},
+}
+
+@misc{lee_meta-harness_2026,
+	title = {Meta-{Harness}: {End}-to-{End} {Optimization} of {Model} {Harnesses}},
+	shorttitle = {Meta-{Harness}},
+	url = {http://arxiv.org/abs/2603.28052},
+	doi = {10.48550/arXiv.2603.28052},
+	abstract = {The performance of large language model (LLM) systems depends not only on model weights, but also on their harness: the code that determines what information to store, retrieve, and present to the model. Yet harnesses are still designed largely by hand, and existing text optimizers are poorly matched to this setting because they compress feedback too aggressively. We introduce Meta-Harness, an outer-loop system that searches over harness code for LLM applications. It uses an agentic proposer that accesses the source code, scores, and execution traces of all prior candidates through a filesystem. On online text classification, Meta-Harness improves over a state-of-the-art context management system by 7.7 points while using 4x fewer context tokens. On retrieval-augmented math reasoning, a single discovered harness improves accuracy on 200 IMO-level problems by 4.7 points on average across five held-out models. On agentic coding, discovered harnesses surpass the best hand-engineered baselines on TerminalBench-2. Together, these results show that richer access to prior experience can enable automated harness engineering.},
+	urldate = {2026-06-04},
+	publisher = {arXiv},
+	author = {Lee, Yoonho and Nair, Roshen and Zhang, Qizheng and Lee, Kangwook and Khattab, Omar and Finn, Chelsea},
+	month = mar,
+	year = {2026},
+	note = {arXiv:2603.28052 [cs.AI]
+version: 1},
+	keywords = {Computer Science - Artificial Intelligence},
+}
+
+@article{veldhoen_can_2017,
+	title = {Can neural networks learn logical reasoning?},
+	url = {https://core.ac.uk/download/pdf/151154207.pdf#page=39},
+	urldate = {2025-09-14},
+	journal = {CLASP Papers in Computational Linguistics},
+	author = {Veldhoen, Sara and Zuidema, Willem},
+	year = {2017},
+	pages = {34--40},
+}
+
+@misc{liu_fin-r1_2025,
+	title = {Fin-{R1}: {A} {Large} {Language} {Model} for {Financial} {Reasoning} through {Reinforcement} {Learning}},
+	shorttitle = {Fin-{R1}},
+	url = {http://arxiv.org/abs/2503.16252},
+	doi = {10.48550/arXiv.2503.16252},
+	abstract = {Reasoning large language models are rapidly evolving across various domains. However, their capabilities in handling complex financial tasks still require in-depth exploration. In this paper, we introduce Fin-R1, a reasoning large language model specifically designed for the financial sector. Fin-R1 is built using a two-stage architecture, leveraging a financial reasoning dataset distilled and processed based on DeepSeek-R1. Through supervised fine-tuning (SFT) and reinforcement learning (RL) training, it demonstrates performance close to DeepSeek-R1 with a parameter size of 7 billion across a range of financial reasoning tasks. It achieves the state-of-the-art (SOTA) in the FinQA and ConvFinQA tasks between those LLMs in our evaluation, surpassing larger models in other tasks as well. Fin-R1 showcases strong reasoning and decision-making capabilities, providing solutions to various problems encountered in the financial domain. Our code is available at https://github.com/SUFE-AIFLM-Lab/Fin-R1.},
+	urldate = {2025-09-14},
+	publisher = {arXiv},
+	author = {Liu, Zhaowei and Guo, Xin and Lou, Fangqi and Zeng, Lingfeng and Niu, Jinyi and Wang, Zixuan and Xu, Jiajie and Cai, Weige and Yang, Ziwei and Zhao, Xueqian and Li, Chao and Xu, Sheng and Chen, Dezhi and Chen, Yun and Bai, Zuo and Zhang, Liwen},
+	month = mar,
+	year = {2025},
+	note = {arXiv:2503.16252 [cs]},
+	keywords = {Computer Science - Computation and Language},
+}
+
+@misc{liu_fin-r1_2025-1,
+	title = {Fin-{R1}: {A} {Large} {Language} {Model} for {Financial} {Reasoning} through {Reinforcement} {Learning}},
+	shorttitle = {Fin-{R1}},
+	url = {http://arxiv.org/abs/2503.16252},
+	doi = {10.48550/arXiv.2503.16252},
+	abstract = {Reasoning large language models are rapidly evolving across various domains. However, their capabilities in handling complex financial tasks still require in-depth exploration. In this paper, we introduce Fin-R1, a reasoning large language model specifically designed for the financial sector. Fin-R1 is built using a two-stage architecture, leveraging a financial reasoning dataset distilled and processed based on DeepSeek-R1. Through supervised fine-tuning (SFT) and reinforcement learning (RL) training, it demonstrates performance close to DeepSeek-R1 with a parameter size of 7 billion across a range of financial reasoning tasks. It achieves the state-of-the-art (SOTA) in the FinQA and ConvFinQA tasks between those LLMs in our evaluation, surpassing larger models in other tasks as well. Fin-R1 showcases strong reasoning and decision-making capabilities, providing solutions to various problems encountered in the financial domain. Our code is available at https://github.com/SUFE-AIFLM-Lab/Fin-R1.},
+	urldate = {2025-09-14},
+	publisher = {arXiv},
+	author = {Liu, Zhaowei and Guo, Xin and Lou, Fangqi and Zeng, Lingfeng and Niu, Jinyi and Wang, Zixuan and Xu, Jiajie and Cai, Weige and Yang, Ziwei and Zhao, Xueqian and Li, Chao and Xu, Sheng and Chen, Dezhi and Chen, Yun and Bai, Zuo and Zhang, Liwen},
+	month = mar,
+	year = {2025},
+	note = {arXiv:2503.16252 [cs]},
+	keywords = {Computer Science - Computation and Language},
+}
+
+@article{nguyen_llms_2025,
+	title = {{LLMs} for legal reasoning: {A} unified framework and future perspectives},
+	volume = {58},
+	issn = {2212-473X},
+	shorttitle = {{LLMs} for legal reasoning},
+	url = {https://www.sciencedirect.com/science/article/pii/S2212473X25000380},
+	doi = {10.1016/j.clsr.2025.106165},
+	abstract = {Large Language Models (LLMs) have recently demonstrated remarkable ease of application to numerous natural language processing tasks, however the question of how well they perform is in serious question. In the case of their use in application domains where precision and accuracy are paramount (e.g., law, medicine), the assessment of their performance is erratic. In particular, the application of these models to legal reasoning presents both unique challenges and substantial opportunities because of the inherently complex and multi-faceted nature of legal decision-making. To begin to harness the potential of LLMs in legal reasoning, we propose a framework for unified legal reasoning that combines rule-based, abductive, and case-based approaches, and then investigate possible methods for their integration with LLMs. The ultimate goal, which we take steps toward, is to provide comprehensive, accurate, and adaptable legal decision analysis. We critically examine this combination of reasoning methods, their formalizations, and their relevance to the legal domain, including the consideration of calibration methods to assess their performance. Moreover, we discuss current research and challenges in applying LLMs to legal reasoning tasks, highlight the importance of reconciling different reasoning paradigms, analyze cultural notions of justice, and address issues of uncertainty, vagueness, and ambiguity. Our study offers insights into the benefits and complexities of integrating LLMs within a proposed unified reasoning framework, with the hope of addressing some of the diverse legal challenges, and to advance the capabilities of AI-driven legal analysis.},
+	urldate = {2025-09-14},
+	journal = {Computer Law \& Security Review},
+	author = {Nguyen, Ha Thanh and Fungwacharakorn, Wachara and Zin, May Myo and Goebel, Randy and Toni, Francesca and Stathis, Kostas and Satoh, Ken},
+	month = sep,
+	year = {2025},
+	keywords = {Abductive reasoning, Legal analytics, Legal reasoning, Unified reasoning framework},
+	pages = {106165},
+}
+
+@inproceedings{geva_injecting_2020,
+	title = {Injecting {Numerical} {Reasoning} {Skills} into {Language} {Models}},
+	url = {https://aclanthology.org/2020.acl-main.89/},
+	urldate = {2025-09-12},
+	booktitle = {Proceedings of the 58th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}},
+	author = {Geva, Mor and Gupta, Ankit and Berant, Jonathan},
+	year = {2020},
+	pages = {946--958},
+}
+
+@inproceedings{lai_mcot_2024,
+	title = {{mCoT}: {Multilingual} {Instruction} {Tuning} for {Reasoning} {Consistency} in {Language} {Models}},
+	shorttitle = {{mCoT}},
+	url = {https://aclanthology.org/2024.acl-long.649/},
+	urldate = {2025-09-12},
+	booktitle = {Proceedings of the 62nd {Annual} {Meeting} of the {Association} for {Computational} {Linguistics} ({Volume} 1: {Long} {Papers})},
+	author = {Lai, Huiyuan and Nissim, Malvina},
+	year = {2024},
+	pages = {12012--12026},
+}
+
+@article{baccini_wisdom_2023,
+	title = {The wisdom of the small crowd: {Myside} bias and group discussion},
+	volume = {26},
+	shorttitle = {The wisdom of the small crowd},
+	url = {https://research.rug.nl/en/publications/the-wisdom-of-the-small-crowd-myside-bias-and-group-discussion},
+	number = {4},
+	urldate = {2025-09-12},
+	journal = {JASSS},
+	publisher = {Particle Accelerator Society of Japan},
+	author = {Baccini, Edoardo and Christoff, Zoé and Hartmann, Stephan and Verbrugge, Rineke},
+	year = {2023},
+	pages = {7},
+}
+
+@article{ten_cate_non-efficient_2024,
+	title = {On the non-efficient {PAC} learnability of conjunctive queries},
+	volume = {183},
+	url = {https://www.sciencedirect.com/science/article/pii/S0020019023000741},
+	urldate = {2025-09-12},
+	journal = {Information Processing Letters},
+	publisher = {Elsevier},
+	author = {ten Cate, Balder and Funk, Maurice and Jung, Jean Christoph and Lutz, Carsten},
+	year = {2024},
+	pages = {106431},
+}
+
+@inproceedings{le_compositional_2015,
+	title = {Compositional {Distributional} {Semantics} with {Long} {Short} {Term} {Memory}},
+	url = {https://aclanthology.org/S15-1002.pdf},
+	urldate = {2025-09-12},
+	booktitle = {Proceedings of the {Fourth} {Joint} {Conference} on {Lexical} and {Computational} {Semantics}},
+	author = {Le, Phong and Zuidema, Willem},
+	year = {2015},
+	pages = {10--19},
+}
+
+@article{hupkes_visualisation_2018,
+	title = {Visualisation and'diagnostic classifiers' reveal how recurrent and recursive neural networks process hierarchical structure},
+	volume = {61},
+	url = {https://www.jair.org/index.php/jair/article/view/11196},
+	urldate = {2025-09-12},
+	journal = {Journal of Artificial Intelligence Research},
+	author = {Hupkes, Dieuwke and Veldhoen, Sara and Zuidema, Willem},
+	year = {2018},
+	pages = {907--926},
+}
+
+@misc{mul_siamese_2019,
+	title = {Siamese recurrent networks learn first-order logic reasoning and exhibit zero-shot compositional generalization},
+	url = {http://arxiv.org/abs/1906.00180},
+	doi = {10.48550/arXiv.1906.00180},
+	abstract = {Can neural nets learn logic? We approach this classic question with current methods, and demonstrate that recurrent neural networks can learn to recognize first order logical entailment relations between expressions. We define an artificial language in first-order predicate logic, generate a large dataset of sample 'sentences', and use an automatic theorem prover to infer the relation between random pairs of such sentences. We describe a Siamese neural architecture trained to predict the logical relation, and experiment with recurrent and recursive networks. Siamese Recurrent Networks are surprisingly successful at the entailment recognition task, reaching near perfect performance on novel sentences (consisting of known words), and even outperforming recursive networks. We report a series of experiments to test the ability of the models to perform compositional generalization. In particular, we study how they deal with sentences of unseen length, and sentences containing unseen words. We show that set-ups using LSTMs and GRUs obtain high scores on these tests, demonstrating a form of compositionality.},
+	urldate = {2025-09-12},
+	publisher = {arXiv},
+	author = {Mul, Mathijs and Zuidema, Willem},
+	month = jun,
+	year = {2019},
+	note = {arXiv:1906.00180 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning},
+}
+
+@article{zhang_neural_2025,
+	title = {Neural semantic parsing with extremely rich symbolic meaning representations},
+	volume = {51},
+	url = {https://direct.mit.edu/coli/article/51/1/235/124789},
+	number = {1},
+	urldate = {2025-09-12},
+	journal = {Computational Linguistics},
+	publisher = {MIT Press 255 Main Street, 9th Floor, Cambridge, Massachusetts 02142, USA …},
+	author = {Zhang, Xiao and Bouma, Gosse and Bos, Johan},
+	year = {2025},
+	pages = {235--274},
+}
+
+@misc{deepseek-ai_deepseek-v3_2025,
+	title = {{DeepSeek}-{V3} {Technical} {Report}},
+	url = {http://arxiv.org/abs/2412.19437},
+	doi = {10.48550/arXiv.2412.19437},
+	abstract = {We present DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. To achieve efficient inference and cost-effective training, DeepSeek-V3 adopts Multi-head Latent Attention (MLA) and DeepSeekMoE architectures, which were thoroughly validated in DeepSeek-V2. Furthermore, DeepSeek-V3 pioneers an auxiliary-loss-free strategy for load balancing and sets a multi-token prediction training objective for stronger performance. We pre-train DeepSeek-V3 on 14.8 trillion diverse and high-quality tokens, followed by Supervised Fine-Tuning and Reinforcement Learning stages to fully harness its capabilities. Comprehensive evaluations reveal that DeepSeek-V3 outperforms other open-source models and achieves performance comparable to leading closed-source models. Despite its excellent performance, DeepSeek-V3 requires only 2.788M H800 GPU hours for its full training. In addition, its training process is remarkably stable. Throughout the entire training process, we did not experience any irrecoverable loss spikes or perform any rollbacks. The model checkpoints are available at https://github.com/deepseek-ai/DeepSeek-V3.},
+	urldate = {2025-09-11},
+	publisher = {arXiv},
+	author = {DeepSeek-AI and Liu, Aixin and Feng, Bei and Xue, Bing and Wang, Bingxuan and Wu, Bochao and Lu, Chengda and Zhao, Chenggang and Deng, Chengqi and Zhang, Chenyu and Ruan, Chong and Dai, Damai and Guo, Daya and Yang, Dejian and Chen, Deli and Ji, Dongjie and Li, Erhang and Lin, Fangyun and Dai, Fucong and Luo, Fuli and Hao, Guangbo and Chen, Guanting and Li, Guowei and Zhang, H. and Bao, Han and Xu, Hanwei and Wang, Haocheng and Zhang, Haowei and Ding, Honghui and Xin, Huajian and Gao, Huazuo and Li, Hui and Qu, Hui and Cai, J. L. and Liang, Jian and Guo, Jianzhong and Ni, Jiaqi and Li, Jiashi and Wang, Jiawei and Chen, Jin and Chen, Jingchang and Yuan, Jingyang and Qiu, Junjie and Li, Junlong and Song, Junxiao and Dong, Kai and Hu, Kai and Gao, Kaige and Guan, Kang and Huang, Kexin and Yu, Kuai and Wang, Lean and Zhang, Lecong and Xu, Lei and Xia, Leyi and Zhao, Liang and Wang, Litong and Zhang, Liyue and Li, Meng and Wang, Miaojun and Zhang, Mingchuan and Zhang, Minghua and Tang, Minghui and Li, Mingming and Tian, Ning and Huang, Panpan and Wang, Peiyi and Zhang, Peng and Wang, Qiancheng and Zhu, Qihao and Chen, Qinyu and Du, Qiushi and Chen, R. J. and Jin, R. L. and Ge, Ruiqi and Zhang, Ruisong and Pan, Ruizhe and Wang, Runji and Xu, Runxin and Zhang, Ruoyu and Chen, Ruyi and Li, S. S. and Lu, Shanghao and Zhou, Shangyan and Chen, Shanhuang and Wu, Shaoqing and Ye, Shengfeng and Ye, Shengfeng and Ma, Shirong and Wang, Shiyu and Zhou, Shuang and Yu, Shuiping and Zhou, Shunfeng and Pan, Shuting and Wang, T. and Yun, Tao and Pei, Tian and Sun, Tianyu and Xiao, W. L. and Zeng, Wangding and Zhao, Wanjia and An, Wei and Liu, Wen and Liang, Wenfeng and Gao, Wenjun and Yu, Wenqin and Zhang, Wentao and Li, X. Q. and Jin, Xiangyue and Wang, Xianzu and Bi, Xiao and Liu, Xiaodong and Wang, Xiaohan and Shen, Xiaojin and Chen, Xiaokang and Zhang, Xiaokang and Chen, Xiaosha and Nie, Xiaotao and Sun, Xiaowen and Wang, Xiaoxiang and Cheng, Xin and Liu, Xin and Xie, Xin and Liu, Xingchao and Yu, Xingkai and Song, Xinnan and Shan, Xinxia and Zhou, Xinyi and Yang, Xinyu and Li, Xinyuan and Su, Xuecheng and Lin, Xuheng and Li, Y. K. and Wang, Y. Q. and Wei, Y. X. and Zhu, Y. X. and Zhang, Yang and Xu, Yanhong and Xu, Yanhong and Huang, Yanping and Li, Yao and Zhao, Yao and Sun, Yaofeng and Li, Yaohui and Wang, Yaohui and Yu, Yi and Zheng, Yi and Zhang, Yichao and Shi, Yifan and Xiong, Yiliang and He, Ying and Tang, Ying and Piao, Yishi and Wang, Yisong and Tan, Yixuan and Ma, Yiyang and Liu, Yiyuan and Guo, Yongqiang and Wu, Yu and Ou, Yuan and Zhu, Yuchen and Wang, Yuduan and Gong, Yue and Zou, Yuheng and He, Yujia and Zha, Yukun and Xiong, Yunfan and Ma, Yunxian and Yan, Yuting and Luo, Yuxiang and You, Yuxiang and Liu, Yuxuan and Zhou, Yuyang and Wu, Z. F. and Ren, Z. Z. and Ren, Zehui and Sha, Zhangli and Fu, Zhe and Xu, Zhean and Huang, Zhen and Zhang, Zhen and Xie, Zhenda and Zhang, Zhengyan and Hao, Zhewen and Gou, Zhibin and Ma, Zhicheng and Yan, Zhigang and Shao, Zhihong and Xu, Zhipeng and Wu, Zhiyu and Zhang, Zhongyu and Li, Zhuoshu and Gu, Zihui and Zhu, Zijia and Liu, Zijun and Li, Zilin and Xie, Ziwei and Song, Ziyang and Gao, Ziyi and Pan, Zizheng},
+	month = feb,
+	year = {2025},
+	note = {arXiv:2412.19437 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language},
+}
+
+@misc{chen_how_2025,
+	title = {How does {Chain} of {Thought} {Think}? {Mechanistic} {Interpretability} of {Chain}-of-{Thought} {Reasoning} with {Sparse} {Autoencoding}},
+	shorttitle = {How does {Chain} of {Thought} {Think}?},
+	url = {http://arxiv.org/abs/2507.22928},
+	doi = {10.48550/arXiv.2507.22928},
+	abstract = {Chain-of-thought (CoT) prompting boosts Large Language Models accuracy on multi-step tasks, yet whether the generated "thoughts" reflect the true internal reasoning process is unresolved. We present the first feature-level causal study of CoT faithfulness. Combining sparse autoencoders with activation patching, we extract monosemantic features from Pythia-70M and Pythia-2.8B while they tackle GSM8K math problems under CoT and plain (noCoT) prompting. Swapping a small set of CoT-reasoning features into a noCoT run raises answer log-probabilities significantly in the 2.8B model, but has no reliable effect in 70M, revealing a clear scale threshold. CoT also leads to significantly higher activation sparsity and feature interpretability scores in the larger model, signalling more modular internal computation. For example, the model's confidence in generating correct answers improves from 1.2 to 4.3. We introduce patch-curves and random-feature patching baselines, showing that useful CoT information is not only present in the top-K patches but widely distributed. Overall, our results indicate that CoT can induce more interpretable internal structures in high-capacity LLMs, validating its role as a structured prompting method.},
+	urldate = {2025-09-11},
+	publisher = {arXiv},
+	author = {Chen, Xi and Plaat, Aske and Stein, Niki van},
+	month = jul,
+	year = {2025},
+	note = {arXiv:2507.22928 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language},
+}
+
+@misc{srivastava_llmthinkbench_2025,
+	title = {{LLMThinkBench}: {Towards} {Basic} {Math} {Reasoning} and {Overthinking} in {Large} {Language} {Models}},
+	shorttitle = {{LLMThinkBench}},
+	url = {http://arxiv.org/abs/2507.04023},
+	doi = {10.48550/arXiv.2507.04023},
+	abstract = {Large Language Models (LLMs) have achieved remarkable performance on complex mathematical benchmarks, yet often struggle with simple arithmetic tasks and exhibit a tendency toward over-explaining or "overthinking" answers. To systematically assess this phenomenon, we introduce LLMThinkBench, a modular benchmarking framework that enables researchers to evaluate basic math reasoning and overthinking in LLMs. The framework provides 14 configurable math tasks with randomized test data generation and robust parsing strategies. Researchers can quantify overthinking using our Overthinking Score metric, which captures accuracy-verbosity tradeoffs through harmonic mean formulation. The tool offers flexible evaluation with a scalable vLLM/Transformers backend, multi-GPU support, and full configurability. Users can extend the tool with custom tasks, reproduce experiments with seeding, and generate detailed efficiency reports. Distributed as a pip-installable package with CLI and API access, LLMThinkBench provides researchers and practitioners an accessible, cost-effective alternative to expensive LLM-as-a-judge methods for diagnosing basic reasoning capabilities and efficiency analysis. Package can be installed as: pip install llmthinkbench},
+	urldate = {2025-09-11},
+	publisher = {arXiv},
+	author = {Srivastava, Gaurav and Hussain, Aafiya and Srinivasan, Sriram and Wang, Xuan},
+	month = jul,
+	year = {2025},
+	note = {arXiv:2507.04023 [cs]},
+	keywords = {Computer Science - Computation and Language},
+}
+
+@misc{varela_rethinking_2025,
+	title = {Rethinking the {Illusion} of {Thinking}},
+	url = {http://arxiv.org/abs/2507.01231},
+	doi = {10.48550/arXiv.2507.01231},
+	abstract = {Earlier this year, Apple ignited controversy by publishing "The Illusion of Thinking," prompting heated debate within the AI community. Critics seized upon the findings as conclusive evidence that Large Reasoning Models (LRMs) lack genuine reasoning capabilities, branding them as mere stochastic parrots. Meanwhile, defenders-spearheaded by Lawsen et al. (2025)-fired back, condemning the experimental setup as flawed and the conclusions overstated. We clarify this debate by replicating and refining two of the original study's most contentious benchmarks: Towers of Hanoi and River Crossing. By introducing incremental stepwise prompting and agentic collaborative dialogue, we show that previously reported failures solving the Towers of Hanoi were not purely result of output constraints, but also partly a result of cognition limitations: LRMs still stumble when complexity rises moderately (around 8 disks). Moreover, the River Crossing results initially heralded as catastrophic failures turn out to hinge upon testing unsolvable configurations. Once we limit tests strictly to solvable problems-LRMs effortlessly solve large instances involving over 100 agent pairs. Our findings ultimately defy simplistic narratives: today's LRMs are stochastic, RL-tuned searchers in a discrete state space we barely understand. Real progress in symbolic, long-horizon reasoning demands mapping that terrain through fine-grained ablations like those introduced here.},
+	urldate = {2025-09-11},
+	publisher = {arXiv},
+	author = {Varela, Iñaki Dellibarda and Romero-Sorozabal, Pablo and Rocon, Eduardo and Cebrian, Manuel},
+	month = jul,
+	year = {2025},
+	note = {arXiv:2507.01231 [cs]},
+	keywords = {Computer Science - Artificial Intelligence},
+}
+
+@misc{malek_frontier_2025,
+	title = {Frontier {LLMs} {Still} {Struggle} with {Simple} {Reasoning} {Tasks}},
+	url = {http://arxiv.org/abs/2507.07313},
+	doi = {10.48550/arXiv.2507.07313},
+	abstract = {While state-of-the-art large language models (LLMs) demonstrate advanced reasoning capabilities-achieving remarkable performance on challenging competitive math and coding benchmarks-they also frequently fail on tasks that are easy for humans. This work studies the performance of frontier LLMs on a broad set of such "easy" reasoning problems. By extending previous work in the literature, we create a suite of procedurally generated simple reasoning tasks, including counting, first-order logic, proof trees, and travel planning, with changeable parameters (such as document length. or the number of variables in a math problem) that can arbitrarily increase the amount of computation required to produce the answer while preserving the fundamental difficulty. While previous work showed that traditional, non-thinking models can be made to fail on such problems, we demonstrate that even state-of-the-art thinking models consistently fail on such problems and for similar reasons (e.g. statistical shortcuts, errors in intermediate steps, and difficulties in processing long contexts). To further understand the behavior of the models, we introduce the unpuzzles dataset, a different "easy" benchmark consisting of trivialized versions of well-known math and logic puzzles. Interestingly, while modern LLMs excel at solving the original puzzles, they tend to fail on the trivialized versions, exhibiting several systematic failure patterns related to memorizing the originals. We show that this happens even if the models are otherwise able to solve problems with different descriptions but requiring the same logic. Our results highlight that out-of-distribution generalization is still problematic for frontier language models and the new generation of thinking models, even for simple reasoning tasks, and making tasks easier does not necessarily imply improved performance.},
+	urldate = {2025-09-11},
+	publisher = {arXiv},
+	author = {Malek, Alan and Ge, Jiawei and Lazic, Nevena and Jin, Chi and György, András and Szepesvári, Csaba},
+	month = jul,
+	year = {2025},
+	note = {arXiv:2507.07313 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning},
+}
+
+@article{ke_survey_2025,
+	title = {A {Survey} of {Frontiers} in {LLM} {Reasoning}: {Inference} {Scaling}, {Learning} to {Reason}, and {Agentic} {Systems}},
+	shorttitle = {A {Survey} of {Frontiers} in {LLM} {Reasoning}},
+	url = {http://arxiv.org/abs/2504.09037},
+	doi = {10.48550/arXiv.2504.09037},
+	abstract = {Reasoning is a fundamental cognitive process that enables logical inference, problem-solving, and decision-making. With the rapid advancement of large language models (LLMs), reasoning has emerged as a key capability that distinguishes advanced AI systems from conventional models that empower chatbots. In this survey, we categorize existing methods along two orthogonal dimensions: (1) Regimes, which define the stage at which reasoning is achieved (either at inference time or through dedicated training); and (2) Architectures, which determine the components involved in the reasoning process, distinguishing between standalone LLMs and agentic compound systems that incorporate external tools, and multi-agent collaborations. Within each dimension, we analyze two key perspectives: (1) Input level, which focuses on techniques that construct high-quality prompts that the LLM condition on; and (2) Output level, which methods that refine multiple sampled candidates to enhance reasoning quality. This categorization provides a systematic understanding of the evolving landscape of LLM reasoning, highlighting emerging trends such as the shift from inference-scaling to learning-to-reason (e.g., DeepSeek-R1), and the transition to agentic workflows (e.g., OpenAI Deep Research, Manus Agent). Additionally, we cover a broad spectrum of learning algorithms, from supervised fine-tuning to reinforcement learning such as PPO and GRPO, and the training of reasoners and verifiers. We also examine key designs of agentic workflows, from established patterns like generator-evaluator and LLM debate to recent innovations. ...},
+	urldate = {2025-09-11},
+	journal = {TMLR},
+	author = {Ke, Zixuan and Jiao, Fangkai and Ming, Yifei and Nguyen, Xuan-Phi and Xu, Austin and Long, Do Xuan and Li, Minzhi and Qin, Chengwei and Wang, Peifeng and Savarese, Silvio and Xiong, Caiming and Joty, Shafiq},
+	month = aug,
+	year = {2025},
+	note = {arXiv:2504.09037 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language},
+}
+
+@inproceedings{de_carvalho_bad_2026,
+	address = {Cham},
+	title = {Bad {Reasoners}, the {Turing} {Trap} and the {Problem} of {Artificial} {Dualism}},
+	isbn = {978-3-032-00686-8},
+	doi = {10.1007/978-3-032-00686-8_12},
+	abstract = {If it looks like a duck, swims like a duck, and quacks like a duck, then your LLM’s priors are likely to predict the next tokens to amount to the word “duck” based on its learned data distribution—but has it reasoned about its data to deduce the duck? Large language models (LLMs) produce remarkably fluent text, enough to result in widespread claims of their ability to “understand” and “reason”. However, a dissection of the key architectural features of LLMs, and more generally ANNs, in particular their reliance on probabilistic pattern-matching, exposes their absence of critical structures analogous to the neuro-biological substrates known to be involved in human reasoning, goal-directed behavior, and cumulative learning. Furthermore, LLMs lack mechanisms to perform explicit goal-driven cause-effect guided use of deduction, induction, abduction and analogy; if a context requires an unseen and unlikely output \$\$(x{\textasciicircum}*)\$\$(x∗)not supported in the training-data manifold \$\${\textbackslash}mathcal \{M\}\$\$M(i.e. outside the convex hull of what was seen during training), the model has no basis for producing an answer corresponding to the physical world, being instead limited to interpolate on \$\${\textbackslash}mathcal \{M\}\$\$M, from which next-token predictions are drawn via weighted sums over attention heads. Our formalism suggests that token-level statistical interpolation already suffices for the observed behavior; explicit internal reasoning modules are therefore not required to explain output. Consequently, we argue that claims attributing human-like cognition to contemporary LLMs are empirically unsupported, confusing surface fluency with cognitive processes in what essentially are two levels of the same misattribution: (i) Artificial Dualism: researchers project hidden reasoning modules into purely statistical models; (ii) Turing Trap: observers project agency from fluent dialogue alone.},
+	language = {en},
+	booktitle = {Artificial {General} {Intelligence}},
+	publisher = {Springer Nature Switzerland},
+	author = {de Carvalho, Gonçalo Hora and Thórisson, Kristinn R.},
+	editor = {Iklé, Matthew and Kolonin, Anton and Bennett, Michael},
+	year = {2026},
+	pages = {119--134},
+}
+
+@article{rudin_stop_2019,
+	title = {Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead},
+	volume = {1},
+	copyright = {2019 Springer Nature Limited},
+	issn = {2522-5839},
+	url = {https://www.nature.com/articles/s42256-019-0048-x},
+	doi = {10.1038/s42256-019-0048-x},
+	abstract = {Black box machine learning models are currently being used for high-stakes decision making throughout society, causing problems in healthcare, criminal justice and other domains. Some people hope that creating methods for explaining these black box models will alleviate some of the problems, but trying to explain black box models, rather than creating models that are interpretable in the first place, is likely to perpetuate bad practice and can potentially cause great harm to society. The way forward is to design models that are inherently interpretable. This Perspective clarifies the chasm between explaining black boxes and using inherently interpretable models, outlines several key reasons why explainable black boxes should be avoided in high-stakes decisions, identifies challenges to interpretable machine learning, and provides several example applications where interpretable models could potentially replace black box models in criminal justice, healthcare and computer vision.},
+	language = {en},
+	number = {5},
+	urldate = {2021-02-07},
+	journal = {Nature Machine Intelligence},
+	publisher = {Nature Publishing Group},
+	author = {Rudin, Cynthia},
+	month = may,
+	year = {2019},
+	note = {Number: 5},
+	pages = {206--215},
+}
+
+@inproceedings{banino_pondernet_nodate,
+	title = {{PonderNet}: {Learning} to {Ponder}},
+	shorttitle = {{PonderNet}},
+	url = {https://openreview.net/forum?id=1EuxRTe0WN},
+	urldate = {2025-09-11},
+	booktitle = {8th {ICML} {Workshop} on {Automated} {Machine} {Learning} ({AutoML})},
+	author = {Banino, Andrea and Balaguer, Jan and Blundell, Charles},
+}
+
+@misc{hahn_teaching_2021,
+	title = {Teaching {Temporal} {Logics} to {Neural} {Networks}},
+	url = {http://arxiv.org/abs/2003.04218},
+	doi = {10.48550/arXiv.2003.04218},
+	abstract = {We study two fundamental questions in neuro-symbolic computing: can deep learning tackle challenging problems in logics end-to-end, and can neural networks learn the semantics of logics. In this work we focus on linear-time temporal logic (LTL), as it is widely used in verification. We train a Transformer on the problem to directly predict a solution, i.e. a trace, to a given LTL formula. The training data is generated with classical solvers, which, however, only provide one of many possible solutions to each formula. We demonstrate that it is sufficient to train on those particular solutions to formulas, and that Transformers can predict solutions even to formulas from benchmarks from the literature on which the classical solver timed out. Transformers also generalize to the semantics of the logics: while they often deviate from the solutions found by the classical solvers, they still predict correct solutions to most formulas.},
+	urldate = {2022-05-30},
+	publisher = {arXiv},
+	author = {Hahn, Christopher and Schmitt, Frederik and Kreber, Jens U. and Rabe, Markus N. and Finkbeiner, Bernd},
+	month = feb,
+	year = {2021},
+	note = {Number: arXiv:2003.04218
+arXiv:2003.04218 [cs, stat]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Logic in Computer Science, Computer Science - Machine Learning, Statistics - Machine Learning},
+}
+
+@inproceedings{zhang_paradox_2023,
+	title = {On the {Paradox} of {Learning} to {Reason} from {Data}},
+	url = {http://arxiv.org/abs/2205.11502},
+	doi = {10.48550/arXiv.2205.11502},
+	abstract = {Logical reasoning is needed in a wide range of NLP tasks. Can a BERT model be trained end-to-end to solve logical reasoning problems presented in natural language? We attempt to answer this question in a confined problem space where there exists a set of parameters that perfectly simulates logical reasoning. We make observations that seem to contradict each other: BERT attains near-perfect accuracy on in-distribution test examples while failing to generalize to other data distributions over the exact same problem space. Our study provides an explanation for this paradox: instead of learning to emulate the correct reasoning function, BERT has in fact learned statistical features that inherently exist in logical reasoning problems. We also show that it is infeasible to jointly remove statistical features from data, illustrating the difficulty of learning to reason in general. Our result naturally extends to other neural models and unveils the fundamental difference between learning to reason and learning to achieve high performance on NLP benchmarks using statistical features.},
+	urldate = {2022-07-20},
+	booktitle = {Proceedings {IJCAI}'23},
+	publisher = {arXiv},
+	author = {Zhang, Honghua and Li, Liunian Harold and Meng, Tao and Chang, Kai-Wei and Broeck, Guy Van den},
+	year = {2023},
+	note = {arXiv:2205.11502 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language},
+}
+
+@inproceedings{saphra_mechanistic_2024,
+	address = {Miami, Florida, US},
+	title = {Mechanistic?},
+	url = {https://aclanthology.org/2024.blackboxnlp-1.30/},
+	doi = {10.18653/v1/2024.blackboxnlp-1.30},
+	abstract = {The rise of the term “mechanistic interpretability” has accompanied increasing interest in understanding neural models—particularly language models. However, this jargon has also led to a fair amount of confusion. So, what does it mean to be mechanistic? We describe four uses of the term in interpretability research. The most narrow technical definition requires a claim of causality, while a broader technical definition allows for any exploration of a model's internals. However, the term also has a narrow cultural definition describing a cultural movement. To understand this semantic drift, we present a history of the NLP interpretability community and the formation of the separate, parallel mechanistic interpretability community. Finally, we discuss the broad cultural definition—encompassing the entire field of interpretability—and why the traditional NLP interpretability community has come to embrace it. We argue that the polysemy of “mechanistic” is the product of a critical divide within the interpretability community.},
+	urldate = {2025-06-30},
+	booktitle = {Proceedings of the 7th {BlackboxNLP} {Workshop}: {Analyzing} and {Interpreting} {Neural} {Networks} for {NLP}},
+	publisher = {Association for Computational Linguistics},
+	author = {Saphra, Naomi and Wiegreffe, Sarah},
+	editor = {Belinkov, Yonatan and Kim, Najoung and Jumelet, Jaap and Mohebbi, Hosein and Mueller, Aaron and Chen, Hanjie},
+	month = nov,
+	year = {2024},
+	pages = {480--498},
+}
+
+@misc{sharkey_open_2025,
+	title = {Open {Problems} in {Mechanistic} {Interpretability}},
+	url = {http://arxiv.org/abs/2501.16496},
+	doi = {10.48550/arXiv.2501.16496},
+	abstract = {Mechanistic interpretability aims to understand the computational mechanisms underlying neural networks' capabilities in order to accomplish concrete scientific and engineering goals. Progress in this field thus promises to provide greater assurance over AI system behavior and shed light on exciting scientific questions about the nature of intelligence. Despite recent progress toward these goals, there are many open problems in the field that require solutions before many scientific and practical benefits can be realized: Our methods require both conceptual and practical improvements to reveal deeper insights; we must figure out how best to apply our methods in pursuit of specific goals; and the field must grapple with socio-technical challenges that influence and are influenced by our work. This forward-facing review discusses the current frontier of mechanistic interpretability and the open problems that the field may benefit from prioritizing.},
+	urldate = {2025-06-30},
+	publisher = {arXiv},
+	author = {Sharkey, Lee and Chughtai, Bilal and Batson, Joshua and Lindsey, Jack and Wu, Jeff and Bushnaq, Lucius and Goldowsky-Dill, Nicholas and Heimersheim, Stefan and Ortega, Alejandro and Bloom, Joseph and Biderman, Stella and Garriga-Alonso, Adria and Conmy, Arthur and Nanda, Neel and Rumbelow, Jessica and Wattenberg, Martin and Schoots, Nandi and Miller, Joseph and Michaud, Eric J. and Casper, Stephen and Tegmark, Max and Saunders, William and Bau, David and Todd, Eric and Geiger, Atticus and Geva, Mor and Hoogland, Jesse and Murfet, Daniel and McGrath, Tom},
+	month = jan,
+	year = {2025},
+	note = {arXiv:2501.16496 [cs]},
+	keywords = {Computer Science - Machine Learning},
+}
+
+@misc{noauthor_chain--thought_nodate,
+	title = {Chain-of-{Thought} {Is} {Not} {Explainability}},
+	url = {https://www.alphaxiv.org/abs/2025.02},
+	abstract = {View recent discussion. Abstract: Chains-of-thought (CoT) allow language models to verbalise multi-step rationales before producing their final answer. While this technique often boosts task performance and offers an impression of transparency into the model’s reasoning, we argue that CoT rationales can be misleading and are neither necessary nor sufficient for trustworthy interpretability.},
+	language = {en},
+	urldate = {2025-07-02},
+	journal = {alphaXiv},
+}
+
+@misc{krakauer_large_2025,
+	title = {Large {Language} {Models} and {Emergence}: {A} {Complex} {Systems} {Perspective}},
+	shorttitle = {Large {Language} {Models} and {Emergence}},
+	url = {http://arxiv.org/abs/2506.11135},
+	doi = {10.48550/arXiv.2506.11135},
+	abstract = {Emergence is a concept in complexity science that describes how many-body systems manifest novel higher-level properties, properties that can be described by replacing high-dimensional mechanisms with lower-dimensional effective variables and theories. This is captured by the idea "more is different". Intelligence is a consummate emergent property manifesting increasingly efficient -- cheaper and faster -- uses of emergent capabilities to solve problems. This is captured by the idea "less is more". In this paper, we first examine claims that Large Language Models exhibit emergent capabilities, reviewing several approaches to quantifying emergence, and secondly ask whether LLMs possess emergent intelligence.},
+	urldate = {2025-07-02},
+	publisher = {arXiv},
+	author = {Krakauer, David C. and Krakauer, John W. and Mitchell, Melanie},
+	month = jun,
+	year = {2025},
+	note = {arXiv:2506.11135 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing},
+}
+
+@article{ghorbani_interpretation_2019,
+	title = {Interpretation of {Neural} {Networks} {Is} {Fragile}},
+	volume = {33},
+	copyright = {Copyright (c) 2019 Association for the Advancement of Artificial Intelligence},
+	issn = {2374-3468},
+	url = {https://ojs.aaai.org/index.php/AAAI/article/view/4252},
+	doi = {10.1609/aaai.v33i01.33013681},
+	abstract = {In order for machine learning to be trusted in many applications, it is critical to be able to reliably explain why the machine learning algorithm makes certain predictions. For this reason, a variety of methods have been developed recently to interpret neural network predictions by providing, for example, feature importance maps. For both scientific robustness and security reasons, it is important to know to what extent can the interpretations be altered by small systematic perturbations to the input data, which might be generated by adversaries or by measurement biases. In this paper, we demonstrate how to generate adversarial perturbations that produce perceptively indistinguishable inputs that are assigned the same predicted label, yet have very different interpretations. We systematically characterize the robustness of interpretations generated by several widely-used feature importance interpretation methods (feature importance maps, integrated gradients, and DeepLIFT) on ImageNet and CIFAR-10. In all cases, our experiments show that systematic perturbations can lead to dramatically different interpretations without changing the label. We extend these results to show that interpretations based on exemplars (e.g. influence functions) are similarly susceptible to adversarial attack. Our analysis of the geometry of the Hessian matrix gives insight on why robustness is a general challenge to current interpretation approaches.},
+	language = {en},
+	number = {01},
+	urldate = {2025-08-20},
+	journal = {Proceedings of the AAAI Conference on Artificial Intelligence},
+	author = {Ghorbani, Amirata and Abid, Abubakar and Zou, James},
+	month = jul,
+	year = {2019},
+	pages = {3681--3688},
+}
+
+@misc{leask_inference-time_2025,
+	title = {Inference-{Time} {Decomposition} of {Activations} ({ITDA}): {A} {Scalable} {Approach} to {Interpreting} {Large} {Language} {Models}},
+	shorttitle = {Inference-{Time} {Decomposition} of {Activations} ({ITDA})},
+	url = {http://arxiv.org/abs/2505.17769},
+	doi = {10.48550/arXiv.2505.17769},
+	abstract = {Sparse autoencoders (SAEs) are a popular method for decomposing Large Langage Models (LLM) activations into interpretable latents. However, due to their substantial training cost, most academic research uses open-source SAEs which are only available for a restricted set of models of up to 27B parameters. SAE latents are also learned from a dataset of activations, which means they do not transfer between models. Motivated by relative representation similarity measures, we introduce Inference-Time Decomposition of Activations (ITDA) models, an alternative method for decomposing language model activations. To train an ITDA, we greedily construct a dictionary of language model activations on a dataset of prompts, selecting those activations which were worst approximated by matching pursuit on the existing dictionary. ITDAs can be trained in just 1\% of the time required for SAEs, using 1\% of the data. This allowed us to train ITDAs on Llama-3.1 70B and 405B on a single consumer GPU. ITDAs can achieve similar reconstruction performance to SAEs on some target LLMs, but generally incur a performance penalty. However, ITDA dictionaries enable cross-model comparisons, and a simple Jaccard similarity index on ITDA dictionaries outperforms existing methods like CKA, SVCCA, and relative representation similarity metrics. ITDAs provide a cheap alternative to SAEs where computational resources are limited, or when cross model comparisons are necessary. Code available at https://github.com/pleask/itda.},
+	urldate = {2025-08-26},
+	publisher = {arXiv},
+	author = {Leask, Patrick and Nanda, Neel and Moubayed, Noura Al},
+	month = jun,
+	year = {2025},
+	note = {arXiv:2505.17769 [cs]},
+	keywords = {Computer Science - Machine Learning},
+}
+
+@misc{olsson_-context_2022,
+	title = {In-context {Learning} and {Induction} {Heads}},
+	url = {http://arxiv.org/abs/2209.11895},
+	doi = {10.48550/arXiv.2209.11895},
+	abstract = {"Induction heads" are attention heads that implement a simple algorithm to complete token sequences like [A][B] ... [A] -{\textgreater} [B]. In this work, we present preliminary and indirect evidence for a hypothesis that induction heads might constitute the mechanism for the majority of all "in-context learning" in large transformer models (i.e. decreasing loss at increasing token indices). We find that induction heads develop at precisely the same point as a sudden sharp increase in in-context learning ability, visible as a bump in the training loss. We present six complementary lines of evidence, arguing that induction heads may be the mechanistic source of general in-context learning in transformer models of any size. For small attention-only models, we present strong, causal evidence; for larger models with MLPs, we present correlational evidence.},
+	urldate = {2025-08-26},
+	publisher = {arXiv},
+	author = {Olsson, Catherine and Elhage, Nelson and Nanda, Neel and Joseph, Nicholas and DasSarma, Nova and Henighan, Tom and Mann, Ben and Askell, Amanda and Bai, Yuntao and Chen, Anna and Conerly, Tom and Drain, Dawn and Ganguli, Deep and Hatfield-Dodds, Zac and Hernandez, Danny and Johnston, Scott and Jones, Andy and Kernion, Jackson and Lovitt, Liane and Ndousse, Kamal and Amodei, Dario and Brown, Tom and Clark, Jack and Kaplan, Jared and McCandlish, Sam and Olah, Chris},
+	month = sep,
+	year = {2022},
+	note = {arXiv:2209.11895 [cs]},
+	keywords = {Computer Science - Machine Learning},
+}
+
+@misc{hanna_how_2023,
+	title = {How does {GPT}-2 compute greater-than?: {Interpreting} mathematical abilities in a pre-trained language model},
+	shorttitle = {How does {GPT}-2 compute greater-than?},
+	url = {http://arxiv.org/abs/2305.00586},
+	doi = {10.48550/arXiv.2305.00586},
+	abstract = {Pre-trained language models can be surprisingly adept at tasks they were not explicitly trained on, but how they implement these capabilities is poorly understood. In this paper, we investigate the basic mathematical abilities often acquired by pre-trained language models. Concretely, we use mechanistic interpretability techniques to explain the (limited) mathematical abilities of GPT-2 small. As a case study, we examine its ability to take in sentences such as "The war lasted from the year 1732 to the year 17", and predict valid two-digit end years (years {\textgreater} 32). We first identify a circuit, a small subset of GPT-2 small's computational graph that computes this task's output. Then, we explain the role of each circuit component, showing that GPT-2 small's final multi-layer perceptrons boost the probability of end years greater than the start year. Finally, we find related tasks that activate our circuit. Our results suggest that GPT-2 small computes greater-than using a complex but general mechanism that activates across diverse contexts.},
+	urldate = {2025-08-26},
+	publisher = {arXiv},
+	author = {Hanna, Michael and Liu, Ollie and Variengien, Alexandre},
+	month = nov,
+	year = {2023},
+	note = {arXiv:2305.00586 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning},
+}
+
+@misc{bigaud_owkinzero_2025,
+	title = {{OwkinZero}: {Accelerating} {Biological} {Discovery} with {AI}},
+	shorttitle = {{OwkinZero}},
+	url = {http://arxiv.org/abs/2508.16315},
+	doi = {10.48550/arXiv.2508.16315},
+	abstract = {While large language models (LLMs) are rapidly advancing scientific research, they continue to struggle with core biological reasoning tasks essential for translational and biomedical discovery. To address this limitation, we created and curated eight comprehensive benchmark datasets comprising over 300,000 verifiable question-and-answer pairs, each targeting critical challenges in drug discovery including target druggability, modality suitability, and drug perturbation effects. Using this resource, we developed the OwkinZero models by post-training open-source LLMs through a Reinforcement Learning from Verifiable Rewards strategy. Our results demonstrate that specialized 8-32B OwkinZero models substantially outperform larger, state-of-the-art commercial LLMs on these biological benchmarks. Remarkably, we uncover evidence of a key aspect of generalization: specialist models trained on a single task consistently outperform their base models on previously unseen tasks. This generalization effect is further amplified in our comprehensive OwkinZero models, which were trained on a mixture of datasets and achieve even broader cross-task improvements. This study represents a significant step toward addressing the biological reasoning blind spot in current LLMs, demonstrating that targeted reinforcement learning on carefully curated data can unlock generalizable performance in specialized models, thereby accelerating AI-driven biological discovery.},
+	urldate = {2025-08-26},
+	publisher = {arXiv},
+	author = {Bigaud, Nathan and Cabeli, Vincent and Gürel, Meltem and Pignet, Arthur and Klein, John and Wainrib, Gilles and Durand, Eric},
+	month = aug,
+	year = {2025},
+	note = {arXiv:2508.16315 [cs]},
+	keywords = {Computer Science - Machine Learning},
+}
+
+@inproceedings{sundararajan_axiomatic_2017,
+	title = {Axiomatic attribution for deep networks},
+	url = {http://proceedings.mlr.press/v70/sundararajan17a.html},
+	urldate = {2025-08-27},
+	booktitle = {International conference on machine learning},
+	publisher = {PMLR},
+	author = {Sundararajan, Mukund and Taly, Ankur and Yan, Qiqi},
+	year = {2017},
+	pages = {3319--3328},
+}
+
+@misc{alain_understanding_2016,
+	title = {Understanding intermediate layers using linear classifier probes},
+	url = {http://arxiv.org/abs/1610.01644},
+	doi = {10.48550/arXiv.1610.01644},
+	abstract = {Neural network models have a reputation for being black boxes. We propose to monitor the features at every layer of a model and measure how suitable they are for classification. We use linear classifiers, which we refer to as "probes", trained entirely independently of the model itself. This helps us better understand the roles and dynamics of the intermediate layers. We demonstrate how this can be used to develop a better intuition about models and to diagnose potential problems. We apply this technique to the popular models Inception v3 and Resnet-50. Among other things, we observe experimentally that the linear separability of features increase monotonically along the depth of the model.},
+	urldate = {2025-08-27},
+	publisher = {arXiv},
+	author = {Alain, Guillaume and Bengio, Yoshua},
+	year = {2016},
+	note = {arXiv:1610.01644 [stat]},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+}
+
+@misc{bereska_mechanistic_2024,
+	title = {Mechanistic {Interpretability} for {AI} {Safety} -- {A} {Review}},
+	url = {http://arxiv.org/abs/2404.14082},
+	doi = {10.48550/arXiv.2404.14082},
+	abstract = {Understanding AI systems' inner workings is critical for ensuring value alignment and safety. This review explores mechanistic interpretability: reverse engineering the computational mechanisms and representations learned by neural networks into human-understandable algorithms and concepts to provide a granular, causal understanding. We establish foundational concepts such as features encoding knowledge within neural activations and hypotheses about their representation and computation. We survey methodologies for causally dissecting model behaviors and assess the relevance of mechanistic interpretability to AI safety. We examine benefits in understanding, control, alignment, and risks such as capability gains and dual-use concerns. We investigate challenges surrounding scalability, automation, and comprehensive interpretation. We advocate for clarifying concepts, setting standards, and scaling techniques to handle complex models and behaviors and expand to domains such as vision and reinforcement learning. Mechanistic interpretability could help prevent catastrophic outcomes as AI systems become more powerful and inscrutable.},
+	urldate = {2025-08-27},
+	publisher = {arXiv},
+	author = {Bereska, Leonard and Gavves, Efstratios},
+	month = aug,
+	year = {2024},
+	note = {arXiv:2404.14082 [cs]},
+	keywords = {Computer Science - Artificial Intelligence},
+}
+
+@article{elhage_mathematical_2021,
+	title = {A mathematical framework for transformer circuits},
+	volume = {1},
+	number = {1},
+	journal = {Transformer Circuits Thread},
+	author = {Elhage, Nelson and Nanda, Neel and Olsson, Catherine and Henighan, Tom and Joseph, Nicholas and Mann, Ben and Askell, Amanda and Bai, Yuntao and Chen, Anna and Conerly, Tom},
+	year = {2021},
+	pages = {12},
+}
+
+@misc{bengio_international_2025,
+	title = {International {AI} {Safety} {Report}},
+	url = {http://arxiv.org/abs/2501.17805},
+	doi = {10.48550/arXiv.2501.17805},
+	abstract = {The first International AI Safety Report comprehensively synthesizes the current evidence on the capabilities, risks, and safety of advanced AI systems. The report was mandated by the nations attending the AI Safety Summit in Bletchley, UK. Thirty nations, the UN, the OECD, and the EU each nominated a representative to the report's Expert Advisory Panel. A total of 100 AI experts contributed, representing diverse perspectives and disciplines. Led by the report's Chair, these independent experts collectively had full discretion over the report's content.},
+	urldate = {2025-08-27},
+	publisher = {arXiv},
+	author = {Bengio, Yoshua and Mindermann, Sören and Privitera, Daniel and Besiroglu, Tamay and Bommasani, Rishi and Casper, Stephen and Choi, Yejin and Fox, Philip and Garfinkel, Ben and Goldfarb, Danielle and Heidari, Hoda and Ho, Anson and Kapoor, Sayash and Khalatbari, Leila and Longpre, Shayne and Manning, Sam and Mavroudis, Vasilios and Mazeika, Mantas and Michael, Julian and Newman, Jessica and Ng, Kwan Yee and Okolo, Chinasa T. and Raji, Deborah and Sastry, Girish and Seger, Elizabeth and Skeadas, Theodora and South, Tobin and Strubell, Emma and Tramèr, Florian and Velasco, Lucia and Wheeler, Nicole and Acemoglu, Daron and Adekanmbi, Olubayo and Dalrymple, David and Dietterich, Thomas G. and Felten, Edward W. and Fung, Pascale and Gourinchas, Pierre-Olivier and Heintz, Fredrik and Hinton, Geoffrey and Jennings, Nick and Krause, Andreas and Leavy, Susan and Liang, Percy and Ludermir, Teresa and Marda, Vidushi and Margetts, Helen and McDermid, John and Munga, Jane and Narayanan, Arvind and Nelson, Alondra and Neppel, Clara and Oh, Alice and Ramchurn, Gopal and Russell, Stuart and Schaake, Marietje and Schölkopf, Bernhard and Song, Dawn and Soto, Alvaro and Tiedrich, Lee and Varoquaux, Gaël and Yao, Andrew and Zhang, Ya-Qin and Albalawi, Fahad and Alserkal, Marwan and Ajala, Olubunmi and Avrin, Guillaume and Busch, Christian and Carvalho, André Carlos Ponce de Leon Ferreira de and Fox, Bronwyn and Gill, Amandeep Singh and Hatip, Ahmet Halit and Heikkilä, Juha and Jolly, Gill and Katzir, Ziv and Kitano, Hiroaki and Krüger, Antonio and Johnson, Chris and Khan, Saif M. and Lee, Kyoung Mu and Ligot, Dominic Vincent and Molchanovskyi, Oleksii and Monti, Andrea and Mwamanzi, Nusu and Nemer, Mona and Oliver, Nuria and Portillo, José Ramón López and Ravindran, Balaraman and Rivera, Raquel Pezoa and Riza, Hammam and Rugege, Crystal and Seoighe, Ciarán and Sheehan, Jerry and Sheikh, Haroon and Wong, Denise and Zeng, Yi},
+	month = jan,
+	year = {2025},
+	note = {arXiv:2501.17805 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computers and Society, Computer Science - Machine Learning},
+}
+
+@article{geiger_causal_2023,
+	title = {Causal abstraction for faithful model interpretation},
+	url = {http://www.jmlr.org/papers/v26/23-0058.html},
+	urldate = {2025-08-27},
+	journal = {arXiv preprint arXiv:2301.04709},
+	author = {Geiger, Atticus and Potts, Chris and Icard, Thomas},
+	year = {2023},
+	pages = {1},
+}
+
+@article{krishna_disagreement_2024,
+	title = {The {Disagreement} {Problem} in {Explainable} {Machine} {Learning}: {A} {Practitioner}’s {Perspective}},
+	shorttitle = {The {Disagreement} {Problem} in {Explainable} {Machine} {Learning}},
+	url = {https://par.nsf.gov/servlets/purl/10535815},
+	urldate = {2025-08-27},
+	journal = {Transactions on machine learning research (TMLR)},
+	publisher = {Transactions on Machine Learning (TMLR)},
+	author = {Krishna, Satyapriya and Han, Tessa and Gu, Alex and Wu, Steven and Jabbari, Shahin and Lakkaraju, Himabindu},
+	year = {2024},
+}
+
+@misc{neely_order_2021,
+	title = {Order in the {Court}: {Explainable} {AI} {Methods} {Prone} to {Disagreement}},
+	shorttitle = {Order in the {Court}},
+	url = {http://arxiv.org/abs/2105.03287},
+	doi = {10.48550/arXiv.2105.03287},
+	abstract = {By computing the rank correlation between attention weights and feature-additive explanation methods, previous analyses either invalidate or support the role of attention-based explanations as a faithful and plausible measure of salience. To investigate whether this approach is appropriate, we compare LIME, Integrated Gradients, DeepLIFT, Grad-SHAP, Deep-SHAP, and attention-based explanations, applied to two neural architectures trained on single- and pair-sequence language tasks. In most cases, we find that none of our chosen methods agree. Based on our empirical observations and theoretical objections, we conclude that rank correlation does not measure the quality of feature-additive methods. Practitioners should instead use the numerous and rigorous diagnostic methods proposed by the community.},
+	urldate = {2025-08-27},
+	publisher = {arXiv},
+	author = {Neely, Michael and Schouten, Stefan F. and Bleeker, Maurits J. R. and Lucic, Ana},
+	month = jul,
+	year = {2021},
+	note = {arXiv:2105.03287 [cs]},
+	keywords = {Computer Science - Computation and Language, Computer Science - Machine Learning},
+}
+
+@inproceedings{mohebbi_quantifying_2023,
+	title = {Quantifying {Context} {Mixing} in {Transformers}},
+	url = {https://aclanthology.org/2023.eacl-main.245/},
+	urldate = {2025-08-27},
+	booktitle = {Proceedings of the 17th {Conference} of the {European} {Chapter} of the {Association} for {Computational} {Linguistics}},
+	author = {Mohebbi, Hosein and Zuidema, Willem and Chrupała, Grzegorz and Alishahi, Afra},
+	year = {2023},
+	pages = {3378--3400},
+}
+
+@article{belinkov_probing_2022,
+	title = {Probing classifiers: {Promises}, shortcomings, and advances},
+	volume = {48},
+	shorttitle = {Probing classifiers},
+	url = {https://direct.mit.edu/coli/article-abstract/48/1/207/107571},
+	number = {1},
+	urldate = {2025-08-27},
+	journal = {Computational Linguistics},
+	publisher = {MIT Press One Broadway, 12th Floor, Cambridge, Massachusetts 02142, USA …},
+	author = {Belinkov, Yonatan},
+	year = {2022},
+	pages = {207--219},
+}
+
+@inproceedings{ellis_dreamcoder_2021,
+	address = {Virtual Canada},
+	title = {{DreamCoder}: bootstrapping inductive program synthesis with wake-sleep library learning},
+	isbn = {978-1-4503-8391-2},
+	shorttitle = {{DreamCoder}},
+	url = {https://dl.acm.org/doi/10.1145/3453483.3454080},
+	doi = {10.1145/3453483.3454080},
+	language = {en},
+	urldate = {2025-08-28},
+	booktitle = {Proceedings of the 42nd {ACM} {SIGPLAN} {International} {Conference} on {Programming} {Language} {Design} and {Implementation}},
+	publisher = {ACM},
+	author = {Ellis, Kevin and Wong, Catherine and Nye, Maxwell and Sablé-Meyer, Mathias and Morales, Lucas and Hewitt, Luke and Cary, Luc and Solar-Lezama, Armando and Tenenbaum, Joshua B.},
+	month = jun,
+	year = {2021},
+	pages = {835--850},
+}
+
+@article{yang_one_2022,
+	title = {One model for the learning of language},
+	volume = {119},
+	issn = {0027-8424, 1091-6490},
+	url = {https://pnas.org/doi/full/10.1073/pnas.2021865119},
+	doi = {10.1073/pnas.2021865119},
+	abstract = {Significance
+            It has long been hypothesized that language acquisition may be impossible without innate knowledge of the structures that occur in natural language. Here, we show that a domain general learning setup, originally developed in cognitive psychology to model rule learning, is able to acquire key pieces of natural language from relatively few examples of sentences. This develops a new approach to formalizing linguistic learning and highlights some features of language and language acquisition that may arise from general cognitive processes.
+          , 
+            
+              A major goal of linguistics and cognitive science is to understand what class of learning systems can acquire natural language. Until recently, the computational requirements of language have been used to argue that learning is impossible without a highly constrained hypothesis space. Here, we describe a learning system that is maximally unconstrained, operating over the space of all computations, and is able to acquire many of the key structures present in natural language from positive evidence alone. We demonstrate this by providing the same learning model with data from 74 distinct formal languages which have been argued to capture key features of language, have been studied in experimental work, or come from an interesting complexity class. The model is able to successfully induce the latent system generating the observed strings from small amounts of evidence in almost all cases, including for regular (e.g.,
+              
+                a
+                n
+              
+              ,
+              
+                
+                  
+                    
+                      
+                        (
+                        a
+                        b
+                        )
+                      
+                      n
+                    
+                  
+                
+              
+              , and
+              
+                
+                  
+                    
+                      
+                        \{\vphantom{\}}
+                        a
+                        ,
+                        b
+                        \vphantom{\{}\}
+                      
+                      +
+                    
+                  
+                
+              
+              ), context-free (e.g.,
+              
+                
+                  
+                    
+                      a
+                      n
+                    
+                    
+                      b
+                      n
+                    
+                    ,
+                     
+                    
+                      a
+                      n
+                    
+                    
+                      b
+                      
+                        n
+                        +
+                        m
+                      
+                    
+                  
+                
+              
+              , and
+              
+                
+                  
+                    x
+                    
+                      x
+                      R
+                    
+                  
+                
+              
+              ), and context-sensitive (e.g.,
+              
+                
+                  
+                    
+                      a
+                      n
+                    
+                    
+                      b
+                      n
+                    
+                    
+                      c
+                      n
+                    
+                    ,
+                     
+                    
+                      a
+                      n
+                    
+                    
+                      b
+                      m
+                    
+                    
+                      c
+                      n
+                    
+                    
+                      d
+                      m
+                    
+                  
+                
+              
+              , and
+              xx
+              ) languages, as well as for many languages studied in learning experiments. These results show that relatively small amounts of positive evidence can support learning of rich classes of generative computations over structures. The model provides an idealized learning setup upon which additional cognitive constraints and biases can be formalized.},
+	language = {en},
+	number = {5},
+	urldate = {2025-08-28},
+	journal = {Proceedings of the National Academy of Sciences},
+	author = {Yang, Yuan and Piantadosi, Steven T.},
+	month = feb,
+	year = {2022},
+	pages = {e2021865119},
+}
+
+@misc{shojaee_illusion_2025,
+	title = {The {Illusion} of {Thinking}: {Understanding} the {Strengths} and {Limitations} of {Reasoning} {Models} via the {Lens} of {Problem} {Complexity}},
+	shorttitle = {The {Illusion} of {Thinking}},
+	url = {http://arxiv.org/abs/2506.06941},
+	doi = {10.48550/arXiv.2506.06941},
+	abstract = {Recent generations of language models have introduced Large Reasoning Models (LRMs) that generate detailed thinking processes before providing answers. While these models demonstrate improved performance on reasoning benchmarks, their fundamental capabilities, scaling properties, and limitations remain insufficiently understood. Current evaluations primarily focus on established math and coding benchmarks, emphasizing final answer accuracy. However, this evaluation paradigm often suffers from contamination and does not provide insights into the reasoning traces. In this work, we systematically investigate these gaps with the help of controllable puzzle environments that allow precise manipulation of complexity while maintaining consistent logical structures. This setup enables the analysis of not only final answers but also the internal reasoning traces, offering insights into how LRMs think. Through extensive experiments, we show that LRMs face a complete accuracy collapse beyond certain complexities. Moreover, they exhibit a counterintuitive scaling limit: their reasoning effort increases with problem complexity up to a point, then declines despite having remaining token budget. By comparing LRMs with their standard LLM counterparts under same inference compute, we identify three performance regimes: (1) low-complexity tasks where standard models outperform LRMs, (2) medium-complexity tasks where LRMs demonstrates advantage, and (3) high-complexity tasks where both models face complete collapse. We found that LRMs have limitations in exact computation: they fail to use explicit algorithms and reason inconsistently across scales. We also investigate the reasoning traces in more depth, studying the patterns of explored solutions and analyzing the models' computational behavior, shedding light on their strengths, limitations, and raising questions about their reasoning capabilities.},
+	urldate = {2025-08-28},
+	publisher = {arXiv},
+	author = {Shojaee, Parshin and Mirzadeh, Iman and Alizadeh, Keivan and Horton, Maxwell and Bengio, Samy and Farajtabar, Mehrdad},
+	month = jul,
+	year = {2025},
+	note = {arXiv:2506.06941 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning},
+}
+
+@inproceedings{paul_making_2024,
+	title = {Making {Reasoning} {Matter}: {Measuring} and {Improving} {Faithfulness} of {Chain}-of-{Thought} {Reasoning}},
+	shorttitle = {Making {Reasoning} {Matter}},
+	url = {https://aclanthology.org/2024.findings-emnlp.882/},
+	urldate = {2025-08-28},
+	booktitle = {Findings of the {Association} for {Computational} {Linguistics}: {EMNLP} 2024},
+	author = {Paul, Debjit and West, Robert and Bosselut, Antoine and Faltings, Boi},
+	year = {2024},
+	pages = {15012--15032},
+}
+
+@article{turpin_language_2023,
+	title = {Language models don't always say what they think: {Unfaithful} explanations in chain-of-thought prompting},
+	volume = {36},
+	shorttitle = {Language models don't always say what they think},
+	url = {https://proceedings.neurips.cc/paper_files/paper/2023/hash/ed3fea9033a80fea1376299fa7863f4a-Abstract-Conference.html},
+	urldate = {2025-08-28},
+	journal = {Advances in Neural Information Processing Systems},
+	author = {Turpin, Miles and Michael, Julian and Perez, Ethan and Bowman, Samuel},
+	year = {2023},
+	pages = {74952--74965},
+}
+
+@article{welsh_towers_1999,
+	title = {Towers of {Hanoi} and {London}: {Contribution} of {Working} {Memory} and {Inhibition} to {Performance}},
+	volume = {41},
+	issn = {0278-2626},
+	shorttitle = {Towers of {Hanoi} and {London}},
+	url = {https://www.sciencedirect.com/science/article/pii/S0278262699911235},
+	doi = {10.1006/brcg.1999.1123},
+	abstract = {The Tower of Hanoi and Tower of London have become well-established executive function tasks that presumably tap cognitive skills mediated by the frontal cortex. It has been assumed that the two tower tasks are more or less interchangeable and that both measure working memory and inhibition processes. These assumptions were tested in a study involving 37 normal college volunteers (M age = 20 years). Participants were administered the Tower of Hanoi (TOH), Tower of London-Revised (TOL-R), two working memory tests, and two tests of inhibition. The two tower tasks correlated significantly (r = .39), but only moderately. The working memory and inhibition variables explained over one-half of the variance in TOL-R performance; however, there was a relatively weaker contribution of inhibition to TOH performance.},
+	number = {2},
+	urldate = {2025-08-28},
+	journal = {Brain and Cognition},
+	author = {Welsh, Marilyn C. and Satterlee-Cartmell, Trey and Stine, Michelle},
+	month = nov,
+	year = {1999},
+	pages = {231--242},
+}
+
+@article{hinz_mathematical_2009,
+	series = {Copulas, {Measures} and {Integrals}},
+	title = {A mathematical model and a computer tool for the {Tower} of {Hanoi} and {Tower} of {London} puzzles},
+	volume = {179},
+	issn = {0020-0255},
+	url = {https://www.sciencedirect.com/science/article/pii/S0020025509001819},
+	doi = {10.1016/j.ins.2009.04.010},
+	abstract = {We propose a mathematical model for the Towers of Hanoi and London based on state graphs. The analysis of this model allows to address questions like equivalence of puzzles, difficulty of tasks and optimality of solutions using topological, metric and symmetry properties of the corresponding graphs. The mathematical model serves as a base for a computer program to administer tower puzzles in a variety of psychological test situations. It is suitable for bedside use and is equipped with numerous devices for post-processing of recorded data. Among these features is the graphical representation of the projection of the path taken by a test person onto the state graph.},
+	number = {17},
+	urldate = {2025-08-28},
+	journal = {Information Sciences},
+	author = {Hinz, Andreas M. and Kostov, Anton and Kneißl, Fabian and Sürer, Fatma and Danek, Adrian},
+	month = aug,
+	year = {2009},
+	keywords = {Computerized test, State graphs, Tower of Hanoi, Tower of London},
+	pages = {2934--2947},
+}
+
+@article{van_dis_chatgpt_2023,
+	title = {{ChatGPT}: five priorities for research},
+	volume = {614},
+	shorttitle = {{ChatGPT}},
+	url = {https://www.nature.com/articles/d41586-023-00288-7},
+	number = {7947},
+	urldate = {2025-08-28},
+	journal = {Nature},
+	publisher = {Nature Publishing Group UK London},
+	author = {Van Dis, Eva AM and Bollen, Johan and Zuidema, Willem and Van Rooij, Robert and Bockting, Claudi L.},
+	year = {2023},
+	pages = {224--226},
+}
+
+@article{bockting_living_2023,
+	title = {Living guidelines for generative {AI}—why scientists must oversee its use},
+	volume = {622},
+	url = {https://www.nature.com/articles/d41586-023-03266-1},
+	number = {7984},
+	urldate = {2025-08-28},
+	journal = {Nature},
+	publisher = {Nature Publishing Group UK London},
+	author = {Bockting, Claudi L. and Van Dis, Eva AM and Van Rooij, Robert and Zuidema, Willem and Bollen, Johan},
+	year = {2023},
+	pages = {693--696},
+}
+
+@misc{mu_can_2024,
+	title = {Can {LLMs} {Follow} {Simple} {Rules}?},
+	url = {http://arxiv.org/abs/2311.04235},
+	doi = {10.48550/arXiv.2311.04235},
+	abstract = {As Large Language Models (LLMs) are deployed with increasing real-world responsibilities, it is important to be able to specify and constrain the behavior of these systems in a reliable manner. Model developers may wish to set explicit rules for the model, such as "do not generate abusive content", but these may be circumvented by jailbreaking techniques. Existing evaluations of adversarial attacks and defenses on LLMs generally require either expensive manual review or unreliable heuristic checks. To address this issue, we propose Rule-following Language Evaluation Scenarios (RuLES), a programmatic framework for measuring rule-following ability in LLMs. RuLES consists of 14 simple text scenarios in which the model is instructed to obey various rules while interacting with the user. Each scenario has a programmatic evaluation function to determine whether the model has broken any rules in a conversation. Our evaluations of proprietary and open models show that almost all current models struggle to follow scenario rules, even on straightforward test cases. We also demonstrate that simple optimization attacks suffice to significantly increase failure rates on test cases. We conclude by exploring two potential avenues for improvement: test-time steering and supervised fine-tuning.},
+	urldate = {2025-09-01},
+	publisher = {arXiv},
+	author = {Mu, Norman and Chen, Sarah and Wang, Zifan and Chen, Sizhe and Karamardian, David and Aljeraisy, Lulwa and Alomair, Basel and Hendrycks, Dan and Wagner, David},
+	month = mar,
+	year = {2024},
+	note = {arXiv:2311.04235 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning},
+}
+
+@article{kim_bayesian_2020,
+	title = {Bayesian model selection with graph structured sparsity},
+	volume = {21},
+	url = {http://www.jmlr.org/papers/v21/19-123.html},
+	number = {109},
+	urldate = {2025-09-08},
+	journal = {Journal of Machine Learning Research},
+	author = {Kim, Youngseok and Gao, Chao},
+	year = {2020},
+	pages = {1--61},
+}
+
+@inproceedings{krieken_independence_2024,
+	title = {On the {Independence} {Assumption} in {Neurosymbolic} {Learning}},
+	url = {http://arxiv.org/abs/2404.08458},
+	doi = {10.48550/arXiv.2404.08458},
+	abstract = {State-of-the-art neurosymbolic learning systems use probabilistic reasoning to guide neural networks towards predictions that conform to logical constraints over symbols. Many such systems assume that the probabilities of the considered symbols are conditionally independent given the input to simplify learning and reasoning. We study and criticise this assumption, highlighting how it can hinder optimisation and prevent uncertainty quantification. We prove that loss functions bias conditionally independent neural networks to become overconfident in their predictions. As a result, they are unable to represent uncertainty over multiple valid options. Furthermore, we prove that these loss functions are difficult to optimise: they are non-convex, and their minima are usually highly disconnected. Our theoretical analysis gives the foundation for replacing the conditional independence assumption and designing more expressive neurosymbolic probabilistic models.},
+	urldate = {2025-07-02},
+	booktitle = {Proceedings {ICML}'24},
+	publisher = {arXiv},
+	author = {Krieken, Emile van and Minervini, Pasquale and Ponti, Edoardo M. and Vergari, Antonio},
+	month = jun,
+	year = {2024},
+	note = {arXiv:2404.08458 [stat]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning, Statistics - Machine Learning},
+}
+
+@inproceedings{mirzadeh_gsm-symbolic_2024,
+	title = {{GSM}-{Symbolic}: {Understanding} the {Limitations} of {Mathematical} {Reasoning} in {Large} {Language} {Models}},
+	shorttitle = {{GSM}-{Symbolic}},
+	url = {http://arxiv.org/abs/2410.05229},
+	doi = {10.48550/arXiv.2410.05229},
+	abstract = {Recent advancements in Large Language Models (LLMs) have sparked interest in their formal reasoning capabilities, particularly in mathematics. The GSM8K benchmark is widely used to assess the mathematical reasoning of models on grade-school-level questions. While the performance of LLMs on GSM8K has significantly improved in recent years, it remains unclear whether their mathematical reasoning capabilities have genuinely advanced, raising questions about the reliability of the reported metrics. To address these concerns, we conduct a large-scale study on several SOTA open and closed models. To overcome the limitations of existing evaluations, we introduce GSM-Symbolic, an improved benchmark created from symbolic templates that allow for the generation of a diverse set of questions. GSM-Symbolic enables more controllable evaluations, providing key insights and more reliable metrics for measuring the reasoning capabilities of models.Our findings reveal that LLMs exhibit noticeable variance when responding to different instantiations of the same question. Specifically, the performance of all models declines when only the numerical values in the question are altered in the GSM-Symbolic benchmark. Furthermore, we investigate the fragility of mathematical reasoning in these models and show that their performance significantly deteriorates as the number of clauses in a question increases. We hypothesize that this decline is because current LLMs cannot perform genuine logical reasoning; they replicate reasoning steps from their training data. Adding a single clause that seems relevant to the question causes significant performance drops (up to 65\%) across all state-of-the-art models, even though the clause doesn't contribute to the reasoning chain needed for the final answer. Overall, our work offers a more nuanced understanding of LLMs' capabilities and limitations in mathematical reasoning.},
+	urldate = {2025-07-02},
+	booktitle = {Proceedings {ICLR}'25},
+	publisher = {arXiv},
+	author = {Mirzadeh, Iman and Alizadeh, Keivan and Shahrokhi, Hooman and Tuzel, Oncel and Bengio, Samy and Farajtabar, Mehrdad},
+	month = oct,
+	year = {2024},
+	note = {arXiv:2410.05229 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning},
+}
+
+@inproceedings{bertolazzi_systematic_2024,
+	address = {Miami, Florida, USA},
+	title = {A {Systematic} {Analysis} of {Large} {Language} {Models} as {Soft} {Reasoners}: {The} {Case} of {Syllogistic} {Inferences}},
+	shorttitle = {A {Systematic} {Analysis} of {Large} {Language} {Models} as {Soft} {Reasoners}},
+	url = {https://aclanthology.org/2024.emnlp-main.769/},
+	doi = {10.18653/v1/2024.emnlp-main.769},
+	abstract = {The reasoning abilities of Large Language Models (LLMs) are becoming a central focus of study in NLP. In this paper, we consider the case of syllogistic reasoning, an area of deductive reasoning studied extensively in logic and cognitive psychology. Previous research has shown that pre-trained LLMs exhibit reasoning biases, such as content effects, avoid answering that no conclusion follows, align with human difficulties, and struggle with multi-step reasoning. We contribute to this research line by systematically investigating the effects of chain-of-thought reasoning, in-context learning (ICL), and supervised fine-tuning (SFT) on syllogistic reasoning, considering syllogisms with conclusions that support or violate world knowledge and with multiple premises. Crucially, we go beyond the standard focus on accuracy, with an in-depth analysis of the conclusions generated by the models. Our results suggest that the behavior of pre-trained LLMs can be explained by heuristics studied in cognitive science and that both ICL and SFT improve model performance on valid inferences, although only the latter can mitigate most reasoning biases while being consistent.},
+	urldate = {2025-07-02},
+	booktitle = {Proceedings of the 2024 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}},
+	publisher = {Association for Computational Linguistics},
+	author = {Bertolazzi, Leonardo and Gatt, Albert and Bernardi, Raffaella},
+	editor = {Al-Onaizan, Yaser and Bansal, Mohit and Chen, Yun-Nung},
+	month = nov,
+	year = {2024},
+	pages = {13882--13905},
+}
+
+@misc{deepseek-ai_deepseek-r1_2025,
+	title = {{DeepSeek}-{R1}: {Incentivizing} {Reasoning} {Capability} in {LLMs} via {Reinforcement} {Learning}},
+	shorttitle = {{DeepSeek}-{R1}},
+	url = {http://arxiv.org/abs/2501.12948},
+	doi = {10.48550/arXiv.2501.12948},
+	abstract = {We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrates remarkable reasoning capabilities. Through RL, DeepSeek-R1-Zero naturally emerges with numerous powerful and intriguing reasoning behaviors. However, it encounters challenges such as poor readability, and language mixing. To address these issues and further enhance reasoning performance, we introduce DeepSeek-R1, which incorporates multi-stage training and cold-start data before RL. DeepSeek-R1 achieves performance comparable to OpenAI-o1-1217 on reasoning tasks. To support the research community, we open-source DeepSeek-R1-Zero, DeepSeek-R1, and six dense models (1.5B, 7B, 8B, 14B, 32B, 70B) distilled from DeepSeek-R1 based on Qwen and Llama.},
+	urldate = {2025-07-02},
+	publisher = {arXiv},
+	author = {DeepSeek-AI and Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and Zhang, Xiaokang and Yu, Xingkai and Wu, Yu and Wu, Z. F. and Gou, Zhibin and Shao, Zhihong and Li, Zhuoshu and Gao, Ziyi and Liu, Aixin and Xue, Bing and Wang, Bingxuan and Wu, Bochao and Feng, Bei and Lu, Chengda and Zhao, Chenggang and Deng, Chengqi and Zhang, Chenyu and Ruan, Chong and Dai, Damai and Chen, Deli and Ji, Dongjie and Li, Erhang and Lin, Fangyun and Dai, Fucong and Luo, Fuli and Hao, Guangbo and Chen, Guanting and Li, Guowei and Zhang, H. and Bao, Han and Xu, Hanwei and Wang, Haocheng and Ding, Honghui and Xin, Huajian and Gao, Huazuo and Qu, Hui and Li, Hui and Guo, Jianzhong and Li, Jiashi and Wang, Jiawei and Chen, Jingchang and Yuan, Jingyang and Qiu, Junjie and Li, Junlong and Cai, J. L. and Ni, Jiaqi and Liang, Jian and Chen, Jin and Dong, Kai and Hu, Kai and Gao, Kaige and Guan, Kang and Huang, Kexin and Yu, Kuai and Wang, Lean and Zhang, Lecong and Zhao, Liang and Wang, Litong and Zhang, Liyue and Xu, Lei and Xia, Leyi and Zhang, Mingchuan and Zhang, Minghua and Tang, Minghui and Li, Meng and Wang, Miaojun and Li, Mingming and Tian, Ning and Huang, Panpan and Zhang, Peng and Wang, Qiancheng and Chen, Qinyu and Du, Qiushi and Ge, Ruiqi and Zhang, Ruisong and Pan, Ruizhe and Wang, Runji and Chen, R. J. and Jin, R. L. and Chen, Ruyi and Lu, Shanghao and Zhou, Shangyan and Chen, Shanhuang and Ye, Shengfeng and Wang, Shiyu and Yu, Shuiping and Zhou, Shunfeng and Pan, Shuting and Li, S. S. and Zhou, Shuang and Wu, Shaoqing and Ye, Shengfeng and Yun, Tao and Pei, Tian and Sun, Tianyu and Wang, T. and Zeng, Wangding and Zhao, Wanjia and Liu, Wen and Liang, Wenfeng and Gao, Wenjun and Yu, Wenqin and Zhang, Wentao and Xiao, W. L. and An, Wei and Liu, Xiaodong and Wang, Xiaohan and Chen, Xiaokang and Nie, Xiaotao and Cheng, Xin and Liu, Xin and Xie, Xin and Liu, Xingchao and Yang, Xinyu and Li, Xinyuan and Su, Xuecheng and Lin, Xuheng and Li, X. Q. and Jin, Xiangyue and Shen, Xiaojin and Chen, Xiaosha and Sun, Xiaowen and Wang, Xiaoxiang and Song, Xinnan and Zhou, Xinyi and Wang, Xianzu and Shan, Xinxia and Li, Y. K. and Wang, Y. Q. and Wei, Y. X. and Zhang, Yang and Xu, Yanhong and Li, Yao and Zhao, Yao and Sun, Yaofeng and Wang, Yaohui and Yu, Yi and Zhang, Yichao and Shi, Yifan and Xiong, Yiliang and He, Ying and Piao, Yishi and Wang, Yisong and Tan, Yixuan and Ma, Yiyang and Liu, Yiyuan and Guo, Yongqiang and Ou, Yuan and Wang, Yuduan and Gong, Yue and Zou, Yuheng and He, Yujia and Xiong, Yunfan and Luo, Yuxiang and You, Yuxiang and Liu, Yuxuan and Zhou, Yuyang and Zhu, Y. X. and Xu, Yanhong and Huang, Yanping and Li, Yaohui and Zheng, Yi and Zhu, Yuchen and Ma, Yunxian and Tang, Ying and Zha, Yukun and Yan, Yuting and Ren, Z. Z. and Ren, Zehui and Sha, Zhangli and Fu, Zhe and Xu, Zhean and Xie, Zhenda and Zhang, Zhengyan and Hao, Zhewen and Ma, Zhicheng and Yan, Zhigang and Wu, Zhiyu and Gu, Zihui and Zhu, Zijia and Liu, Zijun and Li, Zilin and Xie, Ziwei and Song, Ziyang and Pan, Zizheng and Huang, Zhen and Xu, Zhipeng and Zhang, Zhongyu and Zhang, Zhen},
+	month = jan,
+	year = {2025},
+	note = {arXiv:2501.12948 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning},
+}
+
+@misc{castro_discovering_2025,
+	title = {Discovering {Symbolic} {Cognitive} {Models} from {Human} and {Animal} {Behavior}},
+	copyright = {© 2025, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at http://creativecommons.org/licenses/by/4.0/},
+	url = {https://www.biorxiv.org/content/10.1101/2025.02.05.636732v1},
+	doi = {10.1101/2025.02.05.636732},
+	abstract = {Symbolic models play a key role in cognitive science, expressing computationally precise hypotheses about how the brain implements a cognitive process. Identifying an appropriate model typically requires a great deal of effort and ingenuity on the part of a human scientist. Here, we adapt FunSearch Romera-Paredes et al. (2024), a recently developed tool that uses Large Language Models (LLMs) in an evolutionary algorithm, to automatically discover symbolic cognitive models that accurately capture human and animal behavior. We consider datasets from three species performing a classic reward-learning task that has been the focus of substantial modeling effort, and find that the discovered programs outperform state-of-the-art cognitive models for each. The discovered programs can readily be interpreted as hypotheses about human and animal cognition, instantiating interpretable symbolic learning and decision-making algorithms. Broadly, these results demonstrate the viability of using LLM-powered program synthesis to propose novel scientific hypotheses regarding mechanisms of human and animal cognition.},
+	language = {en},
+	urldate = {2025-07-02},
+	publisher = {bioRxiv},
+	author = {Castro, Pablo Samuel and Tomasev, Nenad and Anand, Ankit and Sharma, Navodita and Mohanta, Rishika and Dev, Aparna and Perlin, Kuba and Jain, Siddhant and Levin, Kyle and Éltető, Noémi and Dabney, Will and Novikov, Alexander and Turner, Glenn C. and Eckstein, Maria K. and Daw, Nathaniel D. and Miller, Kevin J. and Stachenfeld, Kimberly L.},
+	month = feb,
+	year = {2025},
+	note = {Pages: 2025.02.05.636732
+Section: New Results},
+}
+
+@misc{kim_mol-llama_2025,
+	title = {Mol-{LLaMA}: {Towards} {General} {Understanding} of {Molecules} in {Large} {Molecular} {Language} {Model}},
+	shorttitle = {Mol-{LLaMA}},
+	url = {http://arxiv.org/abs/2502.13449},
+	doi = {10.48550/arXiv.2502.13449},
+	abstract = {Understanding molecules is key to understanding organisms and driving advances in drug discovery, requiring interdisciplinary knowledge across chemistry and biology. Although large molecular language models have achieved notable success in task transfer, they often struggle to accurately analyze molecular features due to limited knowledge and reasoning capabilities. To address this issue, we present Mol-LLaMA, a large molecular language model that grasps the general knowledge centered on molecules and exhibits explainability and reasoning ability. To this end, we design key data types that encompass the fundamental molecular features, taking into account the essential abilities for molecular reasoning. Further, to improve molecular understanding, we propose a module that integrates complementary information from different molecular encoders, leveraging the distinct advantages of molecular representations. Our experimental results demonstrate that Mol-LLaMA is capable of comprehending the general features of molecules and providing informative responses, implying its potential as a general-purpose assistant for molecular analysis. Our project page is at https://mol-llama.github.io/.},
+	urldate = {2025-07-02},
+	publisher = {arXiv},
+	author = {Kim, Dongki and Lee, Wonbin and Hwang, Sung Ju},
+	month = may,
+	year = {2025},
+	note = {arXiv:2502.13449 [cs]},
+	keywords = {Computer Science - Machine Learning, Physics - Chemical Physics},
+}
+
+@article{wang_scientific_2023,
+	title = {Scientific discovery in the age of artificial intelligence},
+	volume = {620},
+	copyright = {2023 Springer Nature Limited},
+	issn = {1476-4687},
+	url = {https://www.nature.com/articles/s41586-023-06221-2},
+	doi = {10.1038/s41586-023-06221-2},
+	abstract = {Artificial intelligence (AI) is being increasingly integrated into scientific discovery to augment and accelerate research, helping scientists to generate hypotheses, design experiments, collect and interpret large datasets, and gain insights that might not have been possible using traditional scientific methods alone. Here we examine breakthroughs over the past decade that include self-supervised learning, which allows models to be trained on vast amounts of unlabelled data, and geometric deep learning, which leverages knowledge about the structure of scientific data to enhance model accuracy and efficiency. Generative AI methods can create designs, such as small-molecule drugs and proteins, by analysing diverse data modalities, including images and sequences. We discuss how these methods can help scientists throughout the scientific process and the central issues that remain despite such advances. Both developers and users of AI tools need a better understanding of when such approaches need improvement, and challenges posed by poor data quality and stewardship remain. These issues cut across scientific disciplines and require developing foundational algorithmic approaches that can contribute to scientific understanding or acquire it autonomously, making them critical areas of focus for AI innovation.},
+	language = {en},
+	number = {7972},
+	urldate = {2025-07-04},
+	journal = {Nature},
+	publisher = {Nature Publishing Group},
+	author = {Wang, Hanchen and Fu, Tianfan and Du, Yuanqi and Gao, Wenhao and Huang, Kexin and Liu, Ziming and Chandak, Payal and Liu, Shengchao and Van Katwyk, Peter and Deac, Andreea and Anandkumar, Anima and Bergen, Karianne and Gomes, Carla P. and Ho, Shirley and Kohli, Pushmeet and Lasenby, Joan and Leskovec, Jure and Liu, Tie-Yan and Manrai, Arjun and Marks, Debora and Ramsundar, Bharath and Song, Le and Sun, Jimeng and Tang, Jian and Veličković, Petar and Welling, Max and Zhang, Linfeng and Coley, Connor W. and Bengio, Yoshua and Zitnik, Marinka},
+	month = aug,
+	year = {2023},
+	keywords = {Computer science, Machine learning, Scientific community, Statistics},
+	pages = {47--60},
+}
